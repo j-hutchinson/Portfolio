@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tokens backgroundColors 1`] = `
+Array [
+  "#E8E8E8",
+  "#03FC28",
+  "#FF6384",
+  "#FFCE56",
+  "#A230FF",
+  "#36A2EB",
+]
+`;
+
+exports[`tokens colourWheel 1`] = `
+Object {
+  "blue": Object {
+    "hover": "#C3D7F7",
+    "main": "#36A2EB",
+  },
+  "border": Object {
+    "hover": "#B5B5B5",
+    "main": "#000000",
+  },
+  "green": Object {
+    "hover": "#D3FCC2",
+    "main": "#03FC28",
+  },
+  "grey": Object {
+    "hover": "#EDEDED",
+    "main": "#E8E8E8",
+  },
+  "purple": Object {
+    "hover": "#CE91FF",
+    "main": "#A230FF",
+  },
+  "red": Object {
+    "hover": "#F7BCBC",
+    "main": "#FF6384",
+  },
+  "yellow": Object {
+    "hover": "#FFF8C7",
+    "main": "#FFCE56",
+  },
+}
+`;
+
+exports[`tokens hoverColors 1`] = `
+Array [
+  "#EDEDED",
+  "#D3FCC2",
+  "#F7BCBC",
+  "#FFF8C7",
+  "#CE91FF",
+  "#C3D7F7",
+]
+`;
+
+exports[`tokens spacing 1`] = `
+Object {
+  "large": "40px",
+  "medium": "20px",
+  "small": "10px",
+  "xlarge": "60px",
+}
+`;
