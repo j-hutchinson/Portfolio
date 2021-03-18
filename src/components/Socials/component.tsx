@@ -9,10 +9,14 @@ const StyledList = styled.ul`
     margin: 0;
     position: absolute;
     top: 50%;
-    right: 5.4rem;
-    -webkit-transform: translate3d(0, -50%, 0);
-    -ms-transform: translate3d(0, -50%, 0);
+    right: 2%
     transform: translate3d(0, -50%, 0);
+
+    @media screen and (max-width: 800px) {
+        display: flex;
+        gap: 16px;
+        top: 6%;
+    }
 `;
 
 const StyledListItem = styled.li`
@@ -54,12 +58,14 @@ const StyledSpanLarge = styled.span`
     position: absolute;
     right: 10px;
 `;
+
 const StyledSpan = styled.span`
     position: absolute;
     top: 10px;
     right: 12px;
     transition: all 0.5s ease-in-out;
 `;
+
 const StyledSpanGithub = styled.span`
     top: 9px;
     position: absolute;

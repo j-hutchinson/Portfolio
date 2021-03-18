@@ -11,10 +11,18 @@ const StyledWrapper = styled.section`
 const StyledHeading = styled.h2`
   text-align: center;
   font-size: 40px;
+
+  @media screen and (max-width: 600px) {
+    font-size: 32px;
+}
 `;
 
 const StyledText = styled.p`
   font-size: 32px;
+
+  @media screen and (max-width: 600px) {
+    font-size: 18px;
+  }
 `;
 
 const StyledGroup = styled.div`
@@ -22,6 +30,12 @@ const StyledGroup = styled.div`
   gap: 48px;
   justify-content: center;
   margin: 0 auto;
+
+  @media screen and (max-width: 600px) {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 156px 0;
+  }
 `;
 
 const ContactMe = (): JSX.Element => (

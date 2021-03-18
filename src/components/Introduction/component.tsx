@@ -4,10 +4,15 @@ import space from './space.jpg'
 import { SectionStyles } from '../../css/tokens';
 
 const StyledWrapper = styled.section`
-    ${SectionStyles};
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 48px
+    gap: 48px;
+    ${SectionStyles};
+
+    @media screen and (max-width: 800px) {
+        grid-template-columns: 1fr;
+        grid-template-rows 0.3fr 0.7fr;
+    }
 `;
 
 const StyledText = styled.div`
@@ -20,6 +25,10 @@ const StyledHeading = styled.h1`
     color: white;
     margin-bottom: 16px;
     margin-top: 0px;
+
+    @media screen and (max-width: 800px) {
+        font-size: 48px;
+    }
 `;
 
 const StyledPara = styled.p`
@@ -27,10 +36,19 @@ const StyledPara = styled.p`
     line-height: 36px;
     color: white;
     margin: 0px;
+
+    @media screen and (max-width: 800px) {
+        font-size: 20px;
+    }
 `;
 
 const StyledImg = styled.img`
     margin: auto;
+
+    @media screen and (max-width: 800px) {
+        width: 180px;
+        margin: 24px 20px;
+    }
 `;
 
 const StyledLink = styled.a`

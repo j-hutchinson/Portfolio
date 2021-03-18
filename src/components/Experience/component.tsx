@@ -12,7 +12,10 @@ const StyledHeading = styled.h2`
   font-size: 36px;
 `;
 
-const StyledList = styled.ul``;
+const StyledList = styled.ul`
+  list-style: none;
+  padding: 0;
+`;
 
 const StyledListItem = styled.li`
   border-bottom: 1px solid white;

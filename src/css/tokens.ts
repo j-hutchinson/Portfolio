@@ -20,8 +20,13 @@ export const SectionStyles = css`
 	background: #191919;  
 	border-radius: 20px;
 	color: white;
-	display: block;
-	height: 640px;
+	min-height: 640px;
 	margin-bottom: 64px;
 	padding: 36px 64px;
+
+	@media screen and (max-width: 600px) {
+		padding: 24px 32px;
+		gap: 0px;
+		height: 900px;
+	}
 `;

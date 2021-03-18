@@ -7,7 +7,17 @@ import ContactMe from '../ContactMe/component';
 
 const StyledContainer = styled.div`
   max-width: 1360px;
-  margin: 64px auto;
+  margin: 64px;
+
+  @media screen and (max-width: 1360px) {
+    margin: 72px 64px;
+  }
+  @media screen and (max-width: 800px) {
+    margin: 72px 48px;
+  }
+  @media screen and (max-width: 600px) {
+    margin: 72px 24px;
+  }
 `;
 
 const App = (): JSX.Element => (
