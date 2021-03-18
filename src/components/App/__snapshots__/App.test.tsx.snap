@@ -2,24 +2,9 @@
 
 exports[`App component component matches snapshot 1`] = `
 <styled.div>
-  <styled.div>
-    <Connect(PostComment) />
-    <Connect(Trends) />
-  </styled.div>
-  <Connect(AllComments) />
-  <styled.div>
-    <styled.button
-      className="multiple-button"
-      onClick={[Function]}
-    >
-      Use mock data
-    </styled.button>
-    <styled.button
-      className="clear-button"
-      onClick={[Function]}
-    >
-      Clear
-    </styled.button>
-  </styled.div>
+  <Introduction />
+  <Socials />
+  <Experience />
+  <ContactMe />
 </styled.div>
 `;
