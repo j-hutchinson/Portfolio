@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Introduction component component matches snapshot 1`] = `
+<styled.section>
+  <styled.div>
+    <styled.h1>
+      Hi, I'm Jack 👋
+    </styled.h1>
+    <styled.p>
+      I'm a full stack web developer at
+       
+      <styled.a
+        href="https://checkout.com"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Checkout.com
+      </styled.a>
+    </styled.p>
+  </styled.div>
+  <styled.img
+    src="space.jpg"
+    width="380px"
+  />
+</styled.section>
+`;

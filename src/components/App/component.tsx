@@ -1,30 +1,22 @@
 import React from 'react';
 import styled from 'styled-components';
-import AboutMe from '../AboutMe/component'
-import Logo from '../Logo/component'
+import Experience from '../Experience/component';
+import Introduction from '../Introduction/component'
+import Socials from '../Socials/component';
+import ContactMe from '../ContactMe/component';
 
-const StyledWrapper = styled.div`
-  background: white;
-  border-radius: 20px;
-  box-shadow: 0px 0px 10px 5px rgb(0 0 0 / 15%);
-  display: grid;
-  grid-template-rows: 140px 1fr;
+const StyledContainer = styled.div`
   max-width: 1360px;
-  margin: 72px 128px;
-  padding: 64px;
-  
-  @media (max-width: 1024px) {
-    margin: 0 auto;
-  }
-
+  margin: 64px auto;
 `;
 
-
 const App = (): JSX.Element => (
-  <StyledWrapper>
-    <Logo />
-    <AboutMe />
-  </StyledWrapper >
+  <StyledContainer>
+    <Introduction />
+    <Socials />
+    <Experience />
+    <ContactMe />
+  </StyledContainer >
 );
 
 export default App;
