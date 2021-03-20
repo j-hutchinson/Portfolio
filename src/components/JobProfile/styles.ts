@@ -53,7 +53,7 @@ export const StyledDate = styled.p`
 
 export const StyledDescription = styled.p`
     display: block;
-    font-size: 18px;
+    font-size: 16px;
     width: 80%;
     line-height: 22px;
     margin: 4px 0px 0px;

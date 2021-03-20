@@ -18,15 +18,20 @@ export const colours = {
 
 export const SectionStyles = css`
 	background: #191919;  
-	border-radius: 20px;
+    border-radius: 20px;
+	box-shadow: 20px 20px 60px rgb(0 0 0 / 50%), -20px -20px 60px rgb(255 255 255 / 5%);
 	color: white;
-	min-height: 640px;
-	margin-bottom: 64px;
-	padding: 36px 64px;
+	padding: 64px 48px;
+	max-width: 980px;
+	margin: 80px auto;
+
+	@media screen and (max-width: 980px) {
+		padding: 40px 20px;
+		width: 560px;
+	}
 
 	@media screen and (max-width: 600px) {
-		padding: 24px 32px;
-		gap: 0px;
-		height: 900px;
+		padding: 40px 20px;
+		width: 335px;
 	}
 `;

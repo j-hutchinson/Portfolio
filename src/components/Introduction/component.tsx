@@ -1,79 +1,129 @@
 import React from 'react';
 import styled from 'styled-components';
-import space from './space.jpg'
-import { SectionStyles } from '../../css/tokens';
+import Socials from '../Socials/component';
+import space from './space.jpg';
 
 const StyledWrapper = styled.section`
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 48px;
-    ${SectionStyles};
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    min-height: 690px;
+    max-height: 1440px;
+    background: #383838;
+    background: linear-gradient(to bottom right, #383838, #1E1E1E);
 
     @media screen and (max-width: 800px) {
-        grid-template-columns: 1fr;
-        grid-template-rows 0.3fr 0.7fr;
+        min-height: 400px;
     }
 `;
 
 const StyledText = styled.div`
+    display: flex;
+    gap: 48px;
+    color: white;
     margin: auto;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 1440px;
+    width: 855px;
+
+    @media screen and (max-width: 900px){
+        padding: 0 24px;
+        width: 100%;
+    }
+`;
+
+const StyledTextContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media screen and (max-width: 900px) {
+        width: 600px;
+        margin: auto;
+        justify-content: start;
+    }
+    @media screen and (max-width: 800px) {
+        width: 500px;
+        margin: auto;
+        justify-content: start;
+    }
+    @media screen and (max-width: 600px) {
+        width: 400px;
+        margin: auto;
+        justify-content: start;
+    }
 `;
 
 const StyledHeading = styled.h1`
-    font-size: 80px;
-    line-height: 64px;
-    color: white;
-    margin-bottom: 16px;
-    margin-top: 0px;
+    font-size: 72px;
+    margin: 32px auto;
+    font-weight: bold;
 
-    @media screen and (max-width: 800px) {
-        font-size: 48px;
+    @media screen and (max-width: 900px){
+        font-size: 56px;
+        margin: 32px 0;
     }
+
+    @media screen and (max-width: 600px){
+        font-size: 48px;
+        margin: 32px 0;
+    }
+`;
+
+const StyledH2 = styled.h2`
+    font-size: 18px;
+    margin-bottom: 4px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-style: italic;
 `;
 
 const StyledPara = styled.p`
-    font-size: 24px;
-    line-height: 36px;
-    color: white;
-    margin: 0px;
-
-    @media screen and (max-width: 800px) {
-        font-size: 20px;
-    }
+    font-size: 18px;
+    margin: 0px 0px 20px 0px;
+    line-height: 1.47059;
+    letter-spacing: 0.25px;
+    font-weight: 300;
+    margin-bottom: 0;
 `;
 
-const StyledImg = styled.img`
-    margin: auto;
-
-    @media screen and (max-width: 800px) {
-        width: 180px;
-        margin: 24px 20px;
-    }
-`;
 
 const StyledLink = styled.a`
-    color: white;
+    color: #3B70A2;;
     font-style: italic;
     font-weight: 500;  
     text-decoration: none;
+`;
 
-    :hover {
-        color: linear-gradient(to right, white 34%, blue 65%);
-        transition: all 0.5s;
+const StyledImg = styled.img`
+    border-radius: 20px;    
+    height: 480px;
+    margin: auto;
+
+    @media screen and (max-width: 900px) {
+        display: none;
     }
 `;
 
 const Introduction = (): JSX.Element => (
     <StyledWrapper>
         <StyledText>
-            <StyledHeading>Hi, I'm Jack 👋</StyledHeading>
-            <StyledPara>I'm a full stack web developer at{' '}
-                <StyledLink href="https://checkout.com" target="_blank" rel="noopener noreferrer">
-                    Checkout.com
+            <StyledTextContainer>
+                <StyledHeading>Jack Hutchinson</StyledHeading>
+                <StyledH2>
+                    Full stack engineer at{' '}
+                    <StyledLink href="https://checkout.com" target="_blank" rel="noopener noreferrer">
+                        Checkout.com
                 </StyledLink>
+                </StyledH2>
+                <StyledPara>
+                    Building reliable and scalable systems by day. Leveraging technology to launch fully featured products by night.
             </StyledPara>
+                <Socials />
+            </StyledTextContainer>
+            <StyledImg src={space} />
         </StyledText>
-        <StyledImg src={space} width="380px" />
     </StyledWrapper >
 );
 

@@ -10,15 +10,16 @@ const StyledWrapper = styled.section`
 
 const StyledHeading = styled.h2`
   text-align: center;
-  font-size: 40px;
+  font-size: 32px;
 
   @media screen and (max-width: 600px) {
-    font-size: 32px;
+    font-size: 22px;
 }
 `;
 
 const StyledText = styled.p`
-  font-size: 32px;
+  font-size: 24px;
+  text-align: center;
 
   @media screen and (max-width: 600px) {
     font-size: 18px;
@@ -45,9 +46,9 @@ const ContactMe = (): JSX.Element => (
       Feel free to reach out to me via any of my social medias. I want to chat to like minded people about tech, crypto or whatever you can think of.
     </StyledText>
     <StyledGroup>
-      <FontAwesomeIcon icon={faLaptopCode} size="5x" />
-      <FontAwesomeIcon icon={faChartLine} size="5x" />
-      <FontAwesomeIcon icon={faBeer} size="5x" />
+      <FontAwesomeIcon icon={faLaptopCode} size="3x" />
+      <FontAwesomeIcon icon={faChartLine} size="3x" />
+      <FontAwesomeIcon icon={faBeer} size="3x" />
     </StyledGroup>
 
   </StyledWrapper >

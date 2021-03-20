@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { CKODesc, ElsDesc } from '../../css/copy';
+import { CKODesc, ElsDesc, CFGDesc } from '../../css/copy';
 import { SectionStyles } from '../../css/tokens';
 import JobProfile from '../JobProfile/component';
 
@@ -30,6 +30,9 @@ const Experience = (): JSX.Element => (
     <StyledList>
       <StyledListItem>
         <JobProfile name="Checkout.com" startDate="04/01/21" title="Senior Software Engineer" desc={CKODesc} />
+      </StyledListItem>
+      <StyledListItem>
+        <JobProfile name="Code First Girls" startDate="01/20" endDate="04/20" title="Instructor" desc={CFGDesc} />
       </StyledListItem>
       <StyledListItem>
         <JobProfile name="Elsevier" startDate="04/09/17" title="Graduate Engineer -> Frontend Engineer" desc={ElsDesc} />

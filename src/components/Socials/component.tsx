@@ -5,23 +5,24 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, faLinkedin, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons"
 
 const StyledList = styled.ul`
+    display: flex;
     list-style: none;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    right: 2%
-    transform: translate3d(0, -50%, 0);
+    margin: 24px 0 0;
+    padding: 0;
 
     @media screen and (max-width: 800px) {
-        display: flex;
-        gap: 16px;
-        top: 6%;
+        justify-content: center;
     }
 `;
 
 const StyledListItem = styled.li`
     position: relative;
-    padding: .9rem 0;
+    padding: 16px;
+
+    :first-child {
+        padding-left: 0px;
+        margin-left: -12px;
+    }
 `;
 
 const StyledLink = styled.a`

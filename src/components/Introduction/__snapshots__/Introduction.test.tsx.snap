@@ -3,24 +3,29 @@
 exports[`Introduction component component matches snapshot 1`] = `
 <styled.section>
   <styled.div>
-    <styled.h1>
-      Hi, I'm Jack 👋
-    </styled.h1>
-    <styled.p>
-      I'm a full stack web developer at
-       
-      <styled.a
-        href="https://checkout.com"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        Checkout.com
-      </styled.a>
-    </styled.p>
+    <styled.div>
+      <styled.h1>
+        Jack Hutchinson
+      </styled.h1>
+      <styled.h2>
+        Full stack engineer at
+         
+        <styled.a
+          href="https://checkout.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Checkout.com
+        </styled.a>
+      </styled.h2>
+      <styled.p>
+        Building reliable and scalable systems by day. Leveraging technology to launch fully featured products by night.
+      </styled.p>
+      <Socials />
+    </styled.div>
+    <styled.img
+      src="space.jpg"
+    />
   </styled.div>
-  <styled.img
-    src="space.jpg"
-    width="380px"
-  />
 </styled.section>
 `;
