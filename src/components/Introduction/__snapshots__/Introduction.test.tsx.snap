@@ -24,7 +24,11 @@ exports[`Introduction component component matches snapshot 1`] = `
       <Socials />
     </styled.div>
     <styled.img
+      alt="Spaceman"
+      height="480px"
+      loading="lazy"
       src="space.jpg"
+      width="343px"
     />
   </styled.div>
 </styled.header>

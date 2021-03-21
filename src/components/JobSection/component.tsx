@@ -1,4 +1,3 @@
-import React from 'react';
 import { CFGLogo, MendeleyLogo, CheckoutLogo } from '../Logos/component';
 import {
     StyledContainer,

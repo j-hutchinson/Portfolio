@@ -4,6 +4,7 @@ exports[`Socials component component matches snapshot 1`] = `
 <styled.ul>
   <styled.li>
     <styled.a
+      aria-label="Jack's Github"
       href="https://github.com.j-hutchinson"
       rel="noopener noreferrer"
       target="_blank"
@@ -51,6 +52,7 @@ exports[`Socials component component matches snapshot 1`] = `
   </styled.li>
   <styled.li>
     <styled.a
+      aria-label="Jack's Twitter"
       href="https://twitter.com/jack_hutchy"
       rel="noopener noreferrer"
       target="_blank"
@@ -98,6 +100,7 @@ exports[`Socials component component matches snapshot 1`] = `
   </styled.li>
   <styled.li>
     <styled.a
+      aria-label="Jack's Instagram"
       href="https://instagram.com/jack_hutchy"
       rel="noopener noreferrer"
       target="_blank"
@@ -145,6 +148,7 @@ exports[`Socials component component matches snapshot 1`] = `
   </styled.li>
   <styled.li>
     <styled.a
+      aria-label="Jack's LinkedIn"
       href="https://linkedin.com/jack-hutchinson-dev"
       rel="noopener noreferrer"
       target="_blank"

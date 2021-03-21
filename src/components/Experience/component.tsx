@@ -1,4 +1,3 @@
-import React from 'react';
 import { CKODesc, ElsDesc, CFGDesc } from '../../css/copy';
 import JobSection from '../JobSection/component';
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from "../../css/GlobalStyle";
 import { darkTheme, lightTheme } from "../../css/tokens";

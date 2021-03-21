@@ -1,6 +1,5 @@
 import { faGithub, faInstagram, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from 'react';
 import styled from 'styled-components';
 import { colours } from '../../css/tokens';
 
@@ -22,7 +21,6 @@ const StyledListItem = styled.li`
 
     :first-child {
         padding-left: 0px;
-        margin-left: -12px;
     }
 `;
 
@@ -43,7 +41,6 @@ const StyledLink = styled.a`
 
 const StyledI = styled.i`
     font-size: 14px;
-    right: 0;
     text-align: center;
     display: inline-block;
     width: 33px;
@@ -51,27 +48,26 @@ const StyledI = styled.i`
     line-height: calc(33px - 4px);
     border-radius: 50%;
     position: absolute;
-    top: 0;
     line-height: 33px;
     transition: all 0.5s ease-in-out;
 `;
 
 const StyledSpanLarge = styled.span`    
-    top: 10px;
+    top: 26px;
+    right: 22px;
     position: absolute;
-    right: 10px;
 `;
 
 const StyledSpan = styled.span`
+    top: 26px;
+    right: 23px;
     position: absolute;
-    top: 10px;
-    right: 12px;
 `;
 
 const StyledSpanGithub = styled.span`
-    top: 9px;
+    top: 26px;
+    right: 22px;
     position: absolute;
-    right: 11px;
 `;
 
 const Socials = (theme) => (

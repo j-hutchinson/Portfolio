@@ -7,9 +7,11 @@ exports[`App component component matches snapshot 1`] = `
       "background": "linear-gradient(to bottom right, #EDEBEF, #A6A7A4)",
       "border": "#32342B",
       "fontColor": "black",
+      "highlight": "#3B68A9",
       "primaryBackground": "#eee",
       "secondaryBackground": "radial-gradient(118.99% 670.46% at -7.06% -9.5%,#FFFFFF 0%,#F1F1F1 100%)",
       "sectionBackground": "radial-gradient(118.99% 670.46% at -7.06% -9.5%,#FFFFFF 0%,#F1F1F1 100%)",
+      "svgFill": "black",
     }
   }
 >

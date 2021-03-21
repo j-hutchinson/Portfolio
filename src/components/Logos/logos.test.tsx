@@ -1,5 +1,4 @@
 import { shallow } from 'enzyme';
-import React from 'react';
 import { CFGLogo, MendeleyLogo, CheckoutLogo } from './component';
 
 describe('Logos component', () => {

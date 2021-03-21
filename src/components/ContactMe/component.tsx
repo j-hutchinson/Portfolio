@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 import { SectionStyles } from '../../css/tokens';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"

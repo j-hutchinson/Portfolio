@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const CFGLogo = () => (
     <svg xmlns="http://www.w3.org/2000/svg" width="150" height="204">
         <g fill="none" fillRule="evenodd">

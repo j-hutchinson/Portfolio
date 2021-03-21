@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 import { colours } from '../../css/tokens';
 import Socials from '../Socials/component';

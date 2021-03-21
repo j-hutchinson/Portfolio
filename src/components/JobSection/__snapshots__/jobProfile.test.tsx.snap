@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JobProfile component component matches snapshot with full profile 1`] = `
+<styled.section>
+  <div>
+    <styled.h3>
+      name
+    </styled.h3>
+    <styled.p>
+      startDate
+       
+      -&gt;
+       
+      endDate
+    </styled.p>
+    <styled.h4>
+      title
+    </styled.h4>
+    <styled.p>
+      desc
+    </styled.p>
+  </div>
+  <styled.div />
+</styled.section>
+`;
+
+exports[`JobProfile component component matches snapshot with no endDate 1`] = `
+<styled.section>
+  <div>
+    <styled.h3>
+      name
+    </styled.h3>
+    <styled.p>
+      startDate
+       
+      -&gt;
+       
+    </styled.p>
+    <styled.h4>
+      title
+    </styled.h4>
+    <styled.p>
+      desc
+    </styled.p>
+  </div>
+  <styled.div />
+</styled.section>
+`;

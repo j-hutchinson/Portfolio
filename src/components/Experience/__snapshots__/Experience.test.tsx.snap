@@ -1,38 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Experience component component matches snapshot 1`] = `
-<styled.div>
-  <styled.section>
-    <styled.h2>
-      Where have I been? 🙇‍♂️
-    </styled.h2>
-    <styled.ul>
-      <styled.li>
-        <JobProfile
-          desc="Software developer specialising in front end web development utilising JavaScript, React, GraphQL, Docker and AWS. Work in a cross-functional team gaining exposure to the entire product lifecycle from design sessions and user testing to making product decisions in addition to autonomously implementing business features."
-          name="Checkout.com"
-          startDate="04/01/21"
-          title="Senior Software Engineer"
-        />
-      </styled.li>
-      <styled.li>
-        <JobProfile
-          desc="Organised and ran events as part of a team, mentoring a group of 15-20 people on how to start coding. Lead several sessions, working directly with students in 2hr lessons split into lecture and practical application of concepts. Covering topics such as HTML, CSS, bootstrap, javascript and git."
-          endDate="04/20"
-          name="Code First Girls"
-          startDate="01/20"
-          title="Instructor"
-        />
-      </styled.li>
-      <styled.li>
-        <JobProfile
-          desc="Leading and designing the Front-end architecture within a cross-functional team developing a React web app and GraphQL service supporting multiple teams. Responsible for multiple micro-frontends supporting mendeley.com"
-          name="Elsevier"
-          startDate="04/09/17"
-          title="Graduate Engineer -> Frontend Engineer"
-        />
-      </styled.li>
-    </styled.ul>
-  </styled.section>
-</styled.div>
+<Fragment>
+  <JobSection
+    desc="Software developer specialising in front end web development utilising JavaScript, React, GraphQL, Docker and AWS. Work in a cross-functional team gaining exposure to the entire product lifecycle from design sessions and user testing to making product decisions in addition to autonomously implementing business features."
+    name="Checkout.com"
+    startDate="04/01/21"
+    title="Senior Software Engineer"
+  />
+  <JobSection
+    desc="Organised and ran events as part of a team, mentoring a group of 15-20 people on how to start coding. Lead several sessions, working directly with students in 2hr lessons split into lecture and practical application of concepts. Covering topics such as HTML, CSS, bootstrap, javascript and git."
+    endDate="04/20"
+    name="Code First Girls"
+    startDate="01/20"
+    title="Instructor"
+  />
+  <JobSection
+    desc="Leading and designing the Front-end architecture within a cross-functional team developing a React web app and GraphQL service supporting multiple teams. Responsible for multiple micro-frontends supporting mendeley.com"
+    name="Elsevier"
+    startDate="04/09/17"
+    title="Graduate Engineer -> Frontend Engineer"
+  />
+</Fragment>
 `;
