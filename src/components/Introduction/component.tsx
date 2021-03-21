@@ -3,14 +3,12 @@ import styled from 'styled-components';
 import Socials from '../Socials/component';
 import space from './space.jpg';
 
-const StyledWrapper = styled.section`
+const StyledWrapper = styled.header`
     width: 100%;
     margin: auto;
     height: 100vh;
     min-height: 690px;
     max-height: 1440px;
-    background: #383838;
-    background: linear-gradient(to bottom right, #383838, #1E1E1E);
 
     @media screen and (max-width: 800px) {
         min-height: 400px;
@@ -20,7 +18,6 @@ const StyledWrapper = styled.section`
 const StyledText = styled.div`
     display: flex;
     gap: 48px;
-    color: white;
     margin: auto;
     height: 100vh;
     min-height: 600px;
@@ -88,9 +85,8 @@ const StyledPara = styled.p`
     margin-bottom: 0;
 `;
 
-
 const StyledLink = styled.a`
-    color: #3B70A2;;
+    color: #3B70A2;
     font-style: italic;
     font-weight: 500;  
     text-decoration: none;

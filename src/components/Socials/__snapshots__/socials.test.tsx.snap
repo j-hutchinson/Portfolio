@@ -10,8 +10,11 @@ exports[`Socials component component matches snapshot 1`] = `
     >
       <styled.i
         aria-hidden="true"
+        theme={Object {}}
       />
-      <styled.span>
+      <styled.span
+        theme={Object {}}
+      >
         <FontAwesomeIcon
           border={false}
           className=""
@@ -54,8 +57,11 @@ exports[`Socials component component matches snapshot 1`] = `
     >
       <styled.i
         aria-hidden="true"
+        theme={Object {}}
       />
-      <styled.span>
+      <styled.span
+        theme={Object {}}
+      >
         <FontAwesomeIcon
           border={false}
           className=""
@@ -98,8 +104,11 @@ exports[`Socials component component matches snapshot 1`] = `
     >
       <styled.i
         aria-hidden="true"
+        theme={Object {}}
       />
-      <styled.span>
+      <styled.span
+        theme={Object {}}
+      >
         <FontAwesomeIcon
           border={false}
           className=""
@@ -142,8 +151,11 @@ exports[`Socials component component matches snapshot 1`] = `
     >
       <styled.i
         aria-hidden="true"
+        theme={Object {}}
       />
-      <styled.span>
+      <styled.span
+        theme={Object {}}
+      >
         <FontAwesomeIcon
           border={false}
           className=""

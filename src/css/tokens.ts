@@ -1,26 +1,8 @@
 import { css } from 'styled-components';
 
-export const spacing = {
-	xlarge: '60px',
-	large: '40px',
-	medium: '20px',
-	small: '10px'
-};
-
-
-export const colours = {
-	red: '#ffa69e',
-	yellow: '#faf3dd',
-	green: '#b8f2e6',
-	blue: '#aed9e0',
-	darkBlue: '#5e6472'
-}
-
 export const SectionStyles = css`
-	background: #191919;  
     border-radius: 20px;
 	box-shadow: 20px 20px 60px rgb(0 0 0 / 50%), -20px -20px 60px rgb(255 255 255 / 5%);
-	color: white;
 	padding: 64px 48px;
 	max-width: 980px;
 	margin: 80px auto;
@@ -35,3 +17,21 @@ export const SectionStyles = css`
 		width: 335px;
 	}
 `;
+
+export const darkTheme = {
+	fontColor: 'white',
+	primaryBackground: '#222',
+	background: 'linear-gradient(to bottom right, #383838, #1E1E1E)',
+	sectionBackground: 'radial-gradient(118.99% 670.46% at -7.06% -9.5%,#191919 0%,#0a0a0a 100%)',
+	secondaryBackground: 'radial-gradient(118.99% 670.46% at -7.06% -9.5%,#191919 0%,#0a0a0a 100%)',
+	border: '#EDEFE7',
+}
+
+export const lightTheme = {
+	fontColor: 'black',
+	primaryBackground: '#eee',
+	background: 'linear-gradient(to bottom right, #EDEBEF, #A6A7A4)',
+	sectionBackground: 'radial-gradient(118.99% 670.46% at -7.06% -9.5%,#FFFFFF 0%,#F1F1F1 100%)',
+	secondaryBackground: 'radial-gradient(118.99% 670.46% at -7.06% -9.5%,#FFFFFF 0%,#F1F1F1 100%)',
+	border: '#32342B',
+}

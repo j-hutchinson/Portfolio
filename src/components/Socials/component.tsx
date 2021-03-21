@@ -1,8 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { colours } from '../../css/tokens'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGithub, faLinkedin, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 const StyledList = styled.ul`
     display: flex;
@@ -16,6 +15,7 @@ const StyledList = styled.ul`
 `;
 
 const StyledListItem = styled.li`
+    border: none;    
     position: relative;
     padding: 16px;
 
@@ -29,12 +29,7 @@ const StyledLink = styled.a`
     display: block;
     width: 33px;
     height: 33px;
-    color: white;
     transition: all 0.5s ease-in-out;
-
-    :hover {
-        color: ${colours.yellow};
-    }
 `;
 
 const StyledI = styled.i`
@@ -45,7 +40,6 @@ const StyledI = styled.i`
     width: 33px;
     height: 33px;
     line-height: calc(33px - 4px);
-    border: 2px solid #FFFFFF;
     border-radius: 50%;
     position: absolute;
     top: 0;
@@ -73,33 +67,42 @@ const StyledSpanGithub = styled.span`
     right: 11px;
 `;
 
-const Socials = () => (
+const Socials = (theme) => (
     <StyledList >
         <StyledListItem>
             <StyledLink href="https://github.com.j-hutchinson" target="_blank" rel="noopener noreferrer">
-                <StyledI aria-hidden="true"></StyledI>
-                <StyledSpanGithub><FontAwesomeIcon icon={faGithub} /></StyledSpanGithub>
+                <StyledI aria-hidden="true" theme={theme}></StyledI>
+                <StyledSpanGithub theme={theme}>
+                    <FontAwesomeIcon icon={faGithub} />
+                </StyledSpanGithub>
             </StyledLink>
         </StyledListItem>
         <StyledListItem>
             <StyledLink href="https://twitter.com/jack_hutchy" target="_blank" rel="noopener noreferrer">
-                <StyledI aria-hidden="true"></StyledI>
-                <StyledSpanLarge><FontAwesomeIcon icon={faTwitter} /></StyledSpanLarge>
+                <StyledI aria-hidden="true" theme={theme}></StyledI>
+                <StyledSpanLarge theme={theme}>
+                    <FontAwesomeIcon icon={faTwitter} />
+                </StyledSpanLarge>
             </StyledLink>
         </StyledListItem>
         <StyledListItem>
             <StyledLink href="https://instagram.com/jack_hutchy" target="_blank" rel="noopener noreferrer">
-                <StyledI aria-hidden="true"></StyledI>
-                <StyledSpan><FontAwesomeIcon icon={faInstagram} /></StyledSpan>
+                <StyledI aria-hidden="true" theme={theme}></StyledI>
+                <StyledSpan theme={theme}>
+                    <FontAwesomeIcon icon={faInstagram} />
+                </StyledSpan>
             </StyledLink>
         </StyledListItem>
         <StyledListItem>
             <StyledLink href="https://linkedin.com/jack-hutchinson-dev" target="_blank" rel="noopener noreferrer">
-                <StyledI aria-hidden="true"></StyledI>
-                <StyledSpan><FontAwesomeIcon icon={faLinkedin} /></StyledSpan>
+                <StyledI aria-hidden="true" theme={theme}></StyledI>
+                <StyledSpan theme={theme}>
+                    <FontAwesomeIcon icon={faLinkedin} />
+                </StyledSpan>
             </StyledLink>
         </StyledListItem>
     </StyledList>
 )
+
 
 export default Socials;

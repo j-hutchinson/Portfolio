@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBeer, faChartLine, faLaptopCode } from "@fortawesome/free-solid-svg-icons"
 
 const StyledWrapper = styled.section`
-    ${SectionStyles};
+  ${SectionStyles};
 `;
 
 const StyledHeading = styled.h2`
@@ -40,7 +40,7 @@ const StyledGroup = styled.div`
 `;
 
 const ContactMe = (): JSX.Element => (
-  <StyledWrapper>
+  <StyledWrapper >
     <StyledHeading>Get in touch!</StyledHeading>
     <StyledText>
       Feel free to reach out to me via any of my social medias. I want to chat to like minded people about tech, crypto or whatever you can think of.

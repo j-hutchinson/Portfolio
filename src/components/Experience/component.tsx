@@ -4,6 +4,10 @@ import { CKODesc, ElsDesc, CFGDesc } from '../../css/copy';
 import { SectionStyles } from '../../css/tokens';
 import JobProfile from '../JobProfile/component';
 
+const StyledContainer = styled.div`
+  margin-top: -150px;
+`;
+
 const StyledWrapper = styled.section`
   ${SectionStyles};
 `;
@@ -18,27 +22,28 @@ const StyledList = styled.ul`
 `;
 
 const StyledListItem = styled.li`
-  border-bottom: 1px solid white;
   :last-child {
     border: none
   }
 `;
 
 const Experience = (): JSX.Element => (
-  <StyledWrapper>
-    <StyledHeading>Where have I been? 🙇‍♂️</StyledHeading>
-    <StyledList>
-      <StyledListItem>
-        <JobProfile name="Checkout.com" startDate="04/01/21" title="Senior Software Engineer" desc={CKODesc} />
-      </StyledListItem>
-      <StyledListItem>
-        <JobProfile name="Code First Girls" startDate="01/20" endDate="04/20" title="Instructor" desc={CFGDesc} />
-      </StyledListItem>
-      <StyledListItem>
-        <JobProfile name="Elsevier" startDate="04/09/17" title="Graduate Engineer -> Frontend Engineer" desc={ElsDesc} />
-      </StyledListItem>
-    </StyledList>
-  </StyledWrapper >
+  <StyledContainer>
+    <StyledWrapper >
+      <StyledHeading>Where have I been? 🙇‍♂️</StyledHeading>
+      <StyledList>
+        <StyledListItem>
+          <JobProfile name="Checkout.com" startDate="04/01/21" title="Senior Software Engineer" desc={CKODesc} />
+        </StyledListItem>
+        <StyledListItem>
+          <JobProfile name="Code First Girls" startDate="01/20" endDate="04/20" title="Instructor" desc={CFGDesc} />
+        </StyledListItem>
+        <StyledListItem>
+          <JobProfile name="Elsevier" startDate="04/09/17" title="Graduate Engineer -> Frontend Engineer" desc={ElsDesc} />
+        </StyledListItem>
+      </StyledList>
+    </StyledWrapper >
+  </StyledContainer>
 );
 
 export default Experience;
