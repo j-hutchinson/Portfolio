@@ -1,9 +1,10 @@
 import styled, { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from "../../css/GlobalStyle";
 import { darkTheme, lightTheme } from "../../css/tokens";
+import { Checkout, CodeFirstGirls, Mendeley } from '../constants';
 import ContactMe from '../ContactMe/component';
 import Introduction from '../Introduction/component';
-import Experience from '../Experience/component';
+import JobSection from '../JobSection/component';
 import Toggle from "../ThemeToggle/component";
 import { useDarkMode } from "../ThemeToggle/useDarkMode";
 
@@ -23,7 +24,9 @@ const App = (): JSX.Element => {
           <Toggle toggleTheme={themeToggler} />
           <Introduction />
           <StyledBody >
-            <Experience />
+            <JobSection {...Checkout} />
+            <JobSection {...CodeFirstGirls} />
+            <JobSection {...Mendeley} />
             <ContactMe />
           </StyledBody>
         </>

@@ -17,7 +17,7 @@ const StyledHeading = styled.h2`
 `;
 
 const StyledText = styled.p`
-  font-size: 24px;
+  font-size: 22px;
   text-align: center;
 
   @media screen and (max-width: 600px) {

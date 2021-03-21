@@ -93,3 +93,7 @@ export const StyledLogo = styled.div`
         margin: auto;
     }
 `;
+
+export const StyledLink = styled.a`
+    text-decoration: none;
+`;

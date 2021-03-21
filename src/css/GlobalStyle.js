@@ -37,4 +37,13 @@ export const GlobalStyles = createGlobalStyle`
       fill:  ${({ theme }) => theme.svgFill}; 
       transition: all 0.50s linear;
     }
+
+    .company-link {
+      color: ${({ theme }) => theme.fontColor};
+    }
+    
+    .company-link:hover {
+      color: ${({ theme }) => theme.highlight};
+      transition: all 0.2s linear;
+    }
 `;

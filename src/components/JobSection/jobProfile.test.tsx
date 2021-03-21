@@ -8,6 +8,7 @@ describe('JobProfile component', () => {
         startDate: "startDate",
         name: "name",
         title: "title",
+        link: 'somewhere_over_the_rainbow'
     }
     test('component matches snapshot with full profile', () => {
         expect.assertions(1);
