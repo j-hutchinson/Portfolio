@@ -29,6 +29,12 @@ export const StyledContainer = styled.section`
         width: 335px;
     }
 
+    @media screen and (max-width: 350px) {
+        :first-child {
+            margin-top: 0px;
+        }
+    }
+
   
 `;
 

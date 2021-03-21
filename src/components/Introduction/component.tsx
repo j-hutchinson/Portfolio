@@ -81,7 +81,7 @@ const StyledPara = styled.p`
     margin: 0px 0px 20px 0px;
     line-height: 1.47059;
     letter-spacing: 0.25px;
-    font-weight: 300;
+    font-weight: 200;
     margin-bottom: 0;
 `;
 
