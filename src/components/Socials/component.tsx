@@ -31,7 +31,6 @@ const StyledLink = styled.a`
     width: 33px;
     height: 33px;
     transition: all 0.5s ease-in-out;
-    color: ${colours.highlight};
 
     :hover {
         color: ${colours.hover};
@@ -50,7 +49,6 @@ const StyledI = styled.i`
     width: 33px;
     height: 33px;
     line-height: calc(33px - 4px);
-    border: 2px solid ${colours.highlight};
     border-radius: 50%;
     position: absolute;
     top: 0;
@@ -79,7 +77,7 @@ const StyledSpanGithub = styled.span`
 const Socials = (theme) => (
     <StyledList >
         <StyledListItem>
-            <StyledLink href="https://github.com.j-hutchinson" target="_blank" rel="noopener noreferrer">
+            <StyledLink href="https://github.com.j-hutchinson" target="_blank" rel="noopener noreferrer" aria-label="Jack's Github">
                 <StyledI aria-hidden="true" theme={theme}></StyledI>
                 <StyledSpanGithub theme={theme}>
                     <FontAwesomeIcon icon={faGithub} />
@@ -87,15 +85,15 @@ const Socials = (theme) => (
             </StyledLink>
         </StyledListItem>
         <StyledListItem>
-            <StyledLink href="https://twitter.com/jack_hutchy" target="_blank" rel="noopener noreferrer">
-                <StyledI aria-hidden="true" theme={theme}></StyledI>
+            <StyledLink href="https://twitter.com/jack_hutchy" target="_blank" rel="noopener noreferrer" aria-label="Jack's Twitter">
+                <StyledI aria-hidden="true" theme={theme} ></StyledI>
                 <StyledSpanLarge theme={theme}>
                     <FontAwesomeIcon icon={faTwitter} />
                 </StyledSpanLarge>
             </StyledLink>
         </StyledListItem>
         <StyledListItem>
-            <StyledLink href="https://instagram.com/jack_hutchy" target="_blank" rel="noopener noreferrer">
+            <StyledLink href="https://instagram.com/jack_hutchy" target="_blank" rel="noopener noreferrer" aria-label="Jack's Instagram">
                 <StyledI aria-hidden="true" theme={theme}></StyledI>
                 <StyledSpan theme={theme}>
                     <FontAwesomeIcon icon={faInstagram} />
@@ -103,7 +101,7 @@ const Socials = (theme) => (
             </StyledLink>
         </StyledListItem>
         <StyledListItem>
-            <StyledLink href="https://linkedin.com/jack-hutchinson-dev" target="_blank" rel="noopener noreferrer">
+            <StyledLink href="https://linkedin.com/jack-hutchinson-dev" target="_blank" rel="noopener noreferrer" aria-label="Jack's LinkedIn">
                 <StyledI aria-hidden="true" theme={theme}></StyledI>
                 <StyledSpan theme={theme}>
                     <FontAwesomeIcon icon={faLinkedin} />

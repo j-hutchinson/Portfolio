@@ -24,8 +24,12 @@ export const GlobalStyles = createGlobalStyle`
       transition: all 0.50s linear;
     }
 
+    a {
+      color: ${({ theme }) => theme.highlight};
+    }
+
     i {
-      border: 2px solid ${({ theme }) => theme.border};
+      border: 2px solid ${({ theme }) => theme.highlight};
       transition: all 0.50s linear;
     }
 

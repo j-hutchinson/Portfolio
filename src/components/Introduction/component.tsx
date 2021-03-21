@@ -87,7 +87,6 @@ const StyledPara = styled.p`
 `;
 
 const StyledLink = styled.a`
-    color: ${colours.highlight};
     font-style: italic;
     font-weight: 500;  
     text-decoration: none;
@@ -124,7 +123,7 @@ const Introduction = (): JSX.Element => (
                 </StyledPara>
                 <Socials />
             </StyledTextContainer>
-            <StyledImg src={space} />
+            <StyledImg src={space} height="480px" width="343px" alt="Spaceman" loading="lazy" />
         </StyledText>
     </StyledWrapper >
 );
