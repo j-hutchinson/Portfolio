@@ -22,10 +22,6 @@ export const StyledContainer = styled.section`
 
     @media screen and (max-width: 800px) {
          flex-direction: column-reverse;
-
-         :first-child {
-            margin-top: 0px;
-        }
     }
    
     @media screen and (max-width: 600px) {
@@ -90,7 +86,7 @@ export const StyledLogo = styled.div`
     display: flex;
 
     @media screen and (max-width: 800px) {
-        margin: auto;
+        margin: auto auto 16px;
     }
 `;
 

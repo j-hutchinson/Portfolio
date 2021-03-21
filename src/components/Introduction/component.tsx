@@ -45,7 +45,7 @@ const StyledTextContainer = styled.div`
         justify-content: start;
     }
     @media screen and (max-width: 600px) {
-        width: 400px;
+        width: 470px;
         margin: auto 24px;
         justify-content: start;
     }

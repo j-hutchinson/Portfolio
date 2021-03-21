@@ -4,7 +4,14 @@ exports[`JobProfile component component matches snapshot with full profile 1`] =
 <styled.section>
   <div>
     <styled.h3>
-      name
+      <styled.a
+        className="company-link"
+        href="somewhere_over_the_rainbow"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        name
+      </styled.a>
     </styled.h3>
     <styled.p>
       startDate
@@ -28,7 +35,14 @@ exports[`JobProfile component component matches snapshot with no endDate 1`] = `
 <styled.section>
   <div>
     <styled.h3>
-      name
+      <styled.a
+        className="company-link"
+        href="somewhere_over_the_rainbow"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        name
+      </styled.a>
     </styled.h3>
     <styled.p>
       startDate

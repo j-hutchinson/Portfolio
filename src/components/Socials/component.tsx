@@ -8,10 +8,6 @@ const StyledList = styled.ul`
     list-style: none;
     margin: 16px 0 0;
     padding: 0;
-
-    @media screen and (max-width: 800px) {
-        justify-content: center;
-    }
 `;
 
 const StyledListItem = styled.li`
