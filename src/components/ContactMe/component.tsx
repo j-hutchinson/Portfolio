@@ -33,9 +33,7 @@ const StyledGroup = styled.div`
   margin: 0 auto;
 
   @media screen and (max-width: 600px) {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    margin: 156px 0;
+    margin: 24px 0;
   }
 `;
 

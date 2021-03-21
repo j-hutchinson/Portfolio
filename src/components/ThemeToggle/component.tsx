@@ -9,7 +9,7 @@ const Button = styled.button`
     position: fixed;
     bottom: 24px;
     right: 32px;
-    font-size: 24px;
+    font-size: 32px;
 `;
 
 const Toggle = ({ toggleTheme }) => (

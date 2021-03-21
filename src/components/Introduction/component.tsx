@@ -25,7 +25,6 @@ const StyledText = styled.div`
     width: 855px;
 
     @media screen and (max-width: 900px){
-        padding: 0 24px;
         width: 100%;
     }
 `;
@@ -47,7 +46,7 @@ const StyledTextContainer = styled.div`
     }
     @media screen and (max-width: 600px) {
         width: 400px;
-        margin: auto;
+        margin: auto 24px;
         justify-content: start;
     }
 `;
@@ -65,6 +64,7 @@ const StyledHeading = styled.h1`
     @media screen and (max-width: 600px){
         font-size: 48px;
         margin: 32px 0;
+        width: 80%;
     }
 `;
 

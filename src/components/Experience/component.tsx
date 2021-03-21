@@ -6,6 +6,10 @@ import JobProfile from '../JobProfile/component';
 
 const StyledContainer = styled.div`
   margin-top: -150px;
+
+  @media screen and (max-width: 800px) {
+    margin-top: 0px;
+  }
 `;
 
 const StyledWrapper = styled.section`
