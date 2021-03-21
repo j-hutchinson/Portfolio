@@ -28,4 +28,9 @@ export const GlobalStyles = createGlobalStyle`
       border: 2px solid ${({ theme }) => theme.border};
       transition: all 0.50s linear;
     }
+
+    .logo {
+      fill:  ${({ theme }) => theme.svgFill}; 
+      transition: all 0.50s linear;
+    }
 `;

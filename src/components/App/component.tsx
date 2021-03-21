@@ -1,14 +1,12 @@
 import React from 'react';
-import styled from 'styled-components';
-import Experience from '../Experience/component';
-import Introduction from '../Introduction/component'
-import ContactMe from '../ContactMe/component';
-
-import { ThemeProvider } from "styled-components";
+import styled, { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from "../../css/GlobalStyle";
-import { lightTheme, darkTheme } from "../../css/tokens";
-import { useDarkMode } from "../ThemeToggle/useDarkMode";
+import { darkTheme, lightTheme } from "../../css/tokens";
+import ContactMe from '../ContactMe/component';
+import Introduction from '../Introduction/component';
+import Experience from '../Experience/component';
 import Toggle from "../ThemeToggle/component";
+import { useDarkMode } from "../ThemeToggle/useDarkMode";
 
 const StyledBody = styled.main`
   padding-bottom: 64px;

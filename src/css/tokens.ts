@@ -25,6 +25,7 @@ export const darkTheme = {
 	sectionBackground: 'radial-gradient(118.99% 670.46% at -7.06% -9.5%,#191919 0%,#0a0a0a 100%)',
 	secondaryBackground: 'radial-gradient(118.99% 670.46% at -7.06% -9.5%,#191919 0%,#0a0a0a 100%)',
 	border: '#EDEFE7',
+	svgFill: 'white'
 }
 
 export const lightTheme = {
@@ -34,6 +35,7 @@ export const lightTheme = {
 	sectionBackground: 'radial-gradient(118.99% 670.46% at -7.06% -9.5%,#FFFFFF 0%,#F1F1F1 100%)',
 	secondaryBackground: 'radial-gradient(118.99% 670.46% at -7.06% -9.5%,#FFFFFF 0%,#F1F1F1 100%)',
 	border: '#32342B',
+	svgFill: 'black'
 }
 
 export const colours = {
