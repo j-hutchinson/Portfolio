@@ -13,8 +13,12 @@ export const useDarkMode = () => {
     };
 
     useEffect(() => {
-        const localTheme = window.localStorage.getItem('theme');
-        localTheme && setTheme(localTheme)
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            setTheme('dark');
+        } else {
+            const localTheme = window.localStorage.getItem('theme');
+            localTheme && setTheme(localTheme);
+        }
     }, []);
 
     return [theme, themeToggler]
