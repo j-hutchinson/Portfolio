@@ -6,7 +6,7 @@ import { colours } from '../../css/tokens';
 const StyledList = styled.ul`
     display: flex;
     list-style: none;
-    margin: 24px 0 0;
+    margin: 16px 0 0;
     padding: 0;
 
     @media screen and (max-width: 800px) {
@@ -105,7 +105,6 @@ const Socials = (theme) => (
             </StyledLink>
         </StyledListItem>
     </StyledList>
-)
-
+);
 
 export default Socials;

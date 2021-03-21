@@ -1,11 +1,12 @@
-import { CFGLogo, MendeleyLogo, CheckoutLogo } from '../Logos/component';
+import { Jobs } from '../constants';
+import { CFGLogo, CheckoutLogo, MendeleyLogo } from '../Logos/component';
 import {
-    StyledContainer,
     StyledCompanyName,
-    StyledTitle,
+    StyledContainer,
     StyledDate,
     StyledDescription,
-    StyledLogo
+    StyledLogo,
+    StyledTitle
 } from './styles';
 
 interface Props {
@@ -25,9 +26,9 @@ const JobSection = ({ name, startDate, endDate = "present", title, desc }: Props
             <StyledDescription>{desc}</StyledDescription>
         </div>
         <StyledLogo>
-            {name === 'Elsevier' && <MendeleyLogo />}
-            {name === 'Code First Girls' && <CFGLogo />}
-            {name === 'Checkout.com' && <CheckoutLogo />}
+            {name === Jobs.Elsevier && <MendeleyLogo />}
+            {name === Jobs.CFG && <CFGLogo />}
+            {name === Jobs.Checkout && <CheckoutLogo />}
         </StyledLogo>
     </StyledContainer>
 )
