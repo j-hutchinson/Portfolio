@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { colours } from '../../css/tokens';
 import Socials from '../Socials/component';
 import space from './space.jpg';
 
@@ -86,13 +87,13 @@ const StyledPara = styled.p`
 `;
 
 const StyledLink = styled.a`
-    color: #3B70A2;
+    color: ${colours.highlight};
     font-style: italic;
     font-weight: 500;  
     text-decoration: none;
 
     :hover {
-        color: white;
+        color: ${colours.hover};
         transition: 0.5s color linear; 
     }
 `;
@@ -116,11 +117,11 @@ const Introduction = (): JSX.Element => (
                     Full stack engineer at{' '}
                     <StyledLink href="https://checkout.com" target="_blank" rel="noopener noreferrer">
                         Checkout.com
-                </StyledLink>
+                    </StyledLink>
                 </StyledH2>
                 <StyledPara>
                     Building reliable and scalable systems by day. Leveraging technology to launch fully featured products by night.
-            </StyledPara>
+                </StyledPara>
                 <Socials />
             </StyledTextContainer>
             <StyledImg src={space} />

@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { colours } from '../../css/tokens'
 
 export const StyledContainer = styled.div`
     margin: 32px 0;
@@ -16,7 +17,7 @@ export const StyledCompanyName = styled.h3`
 
 export const StyledTitle = styled.h4`
     margin: 8px 0px 16px;
-    color: #878787;
+    color: ${colours.jobTitle};
     font-size: 18px;
     font-style: normal;
 

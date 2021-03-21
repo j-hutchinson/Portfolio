@@ -1,7 +1,8 @@
+import { faGithub, faInstagram, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from 'react';
 import styled from 'styled-components';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { colours } from '../../css/tokens';
 
 const StyledList = styled.ul`
     display: flex;
@@ -30,13 +31,13 @@ const StyledLink = styled.a`
     width: 33px;
     height: 33px;
     transition: all 0.5s ease-in-out;
-    color: #3B70A2;
+    color: ${colours.highlight};
 
     :hover {
-        color: white;
+        color: ${colours.hover};
 
         i {
-            border: 2px solid white;
+            border: 2px solid ${colours.hover};
         }
     }
 `;
@@ -49,7 +50,7 @@ const StyledI = styled.i`
     width: 33px;
     height: 33px;
     line-height: calc(33px - 4px);
-    border: 2px solid #3B70A2;
+    border: 2px solid ${colours.highlight};
     border-radius: 50%;
     position: absolute;
     top: 0;

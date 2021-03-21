@@ -35,3 +35,9 @@ export const lightTheme = {
 	secondaryBackground: 'radial-gradient(118.99% 670.46% at -7.06% -9.5%,#FFFFFF 0%,#F1F1F1 100%)',
 	border: '#32342B',
 }
+
+export const colours = {
+	hover: '#78A5CE',
+	highlight: '#3B70A2',
+	jobTitle: '#878787',
+}
