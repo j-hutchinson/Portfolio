@@ -28,14 +28,4 @@ export const GlobalStyles = createGlobalStyle`
       border: 2px solid ${({ theme }) => theme.border};
       transition: all 0.50s linear;
     }
-
-    span {
-      color: ${({ theme }) => theme.fontColor};
-      transition: all 0.50s linear;
-    }
-
-    li {
-      border-bottom: 1px solid ${({ theme }) => theme.border};
-      transition: all 0.50s linear;
-    }
 `;

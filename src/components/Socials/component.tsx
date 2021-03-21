@@ -30,6 +30,15 @@ const StyledLink = styled.a`
     width: 33px;
     height: 33px;
     transition: all 0.5s ease-in-out;
+    color: #3B70A2;
+
+    :hover {
+        color: white;
+
+        i {
+            border: 2px solid white;
+        }
+    }
 `;
 
 const StyledI = styled.i`
@@ -40,15 +49,15 @@ const StyledI = styled.i`
     width: 33px;
     height: 33px;
     line-height: calc(33px - 4px);
+    border: 2px solid #3B70A2;
     border-radius: 50%;
     position: absolute;
     top: 0;
     line-height: 33px;
-    -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 `;
 
-const StyledSpanLarge = styled.span`
+const StyledSpanLarge = styled.span`    
     top: 10px;
     position: absolute;
     right: 10px;
@@ -58,7 +67,6 @@ const StyledSpan = styled.span`
     position: absolute;
     top: 10px;
     right: 12px;
-    transition: all 0.5s ease-in-out;
 `;
 
 const StyledSpanGithub = styled.span`

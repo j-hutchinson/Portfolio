@@ -10,6 +10,11 @@ const Button = styled.button`
     bottom: 24px;
     right: 32px;
     font-size: 32px;
+    transition: all 0.5s ease-in-out;
+
+    :hover {
+        font-size: 40px;
+    }
 `;
 
 const Toggle = ({ toggleTheme }) => (

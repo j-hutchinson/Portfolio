@@ -90,6 +90,11 @@ const StyledLink = styled.a`
     font-style: italic;
     font-weight: 500;  
     text-decoration: none;
+
+    :hover {
+        color: white;
+        transition: 0.5s color linear; 
+    }
 `;
 
 const StyledImg = styled.img`
