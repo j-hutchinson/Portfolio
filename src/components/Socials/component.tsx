@@ -93,7 +93,7 @@ const Socials = (theme) => (
             </StyledLink>
         </StyledListItem>
         <StyledListItem>
-            <StyledLink href="https://linkedin.com/jack-hutchinson-dev" target="_blank" rel="noopener noreferrer" aria-label="Jack's LinkedIn">
+            <StyledLink href="https://linkedin.com/in/jack-hutchinson-dev" target="_blank" rel="noopener noreferrer" aria-label="Jack's LinkedIn">
                 <StyledI aria-hidden="true" theme={theme}></StyledI>
                 <StyledSpan theme={theme}>
                     <FontAwesomeIcon icon={faLinkedin} />

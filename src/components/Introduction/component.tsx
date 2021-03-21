@@ -98,6 +98,7 @@ const StyledLink = styled.a`
 
 const StyledImg = styled.img`
     border-radius: 20px;    
+    box-shadow: 20px 20px 60px rgb(0 0 0 / 50%), -20px -20px 60px rgb(255 255 255 / 5%);
     height: 480px;
     margin: auto;
 
