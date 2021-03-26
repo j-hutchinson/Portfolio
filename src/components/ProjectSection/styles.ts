@@ -97,21 +97,23 @@ export const StyledLogo = styled.div`
 `;
 
 export const StyledLink = styled.a`
-    font-size: 12px;
-    -webkit-letter-spacing: 1.2px;
-    -moz-letter-spacing: 1.2px;
-    -ms-letter-spacing: 1.2px;
-    letter-spacing: 1.2px;
-    text-transform: uppercase;
-    padding: 4px 32px;
-    width: min-content;
-    font-weight: bold;
-    margin-right: 20px;
-    border-radius: 24px;
-    line-height: 40px;
-    color: #eee;
+    color: #EEE;
     background: #363636;
+    border-radius: 24px;
     box-shadow: -4px -4px 10px rgb(255 255 255 / 8%), 4px 4px 10px rgb(0 0 0 / 50%);
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    line-height: 40px;
+    margin-right: 20px;
+    padding: 4px 32px;
+    text-decoration: none;
+    width: min-content;
+
+    :hover {
+        text-decoration: none;
+    }
 `;
 
 export const StyledImg = styled.img`

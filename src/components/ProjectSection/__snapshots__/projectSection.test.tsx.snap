@@ -7,6 +7,7 @@ exports[`ProjectSection component component matches snapshot with full profile 1
       style={
         Object {
           "display": "flex",
+          "flexDirection": "column",
           "justifyContent": "space-between",
         }
       }
@@ -23,7 +24,10 @@ exports[`ProjectSection component component matches snapshot with full profile 1
         desc
       </styled.p>
     </div>
-    <styled.a>
+    <styled.a
+      rel="noopener noreferrer"
+      target="_blank"
+    >
       Github
     </styled.a>
   </styled.div>

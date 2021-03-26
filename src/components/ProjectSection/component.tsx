@@ -12,9 +12,10 @@ import colorScheme from './colorScheme.png';
 interface Props {
     desc: string;
     name: string;
+    link: string;
 }
 
-const ProjectSection = ({ name, desc, }: Props) => (
+const ProjectSection = ({ name, desc, link }: Props) => (
     <StyledContainer>
         <StyledLeft>
             <div style={{ display: 'flex', justifyContent: 'space-between', flexDirection: 'column' }}>
@@ -26,7 +27,7 @@ const ProjectSection = ({ name, desc, }: Props) => (
                 <StyledTools>React · Typescript </StyledTools>
                 <StyledDescription>{desc}</StyledDescription>
             </div>
-            <StyledLink>Github</StyledLink>
+            <StyledLink href={link} target="_blank" rel="noopener noreferrer">Github</StyledLink>
         </StyledLeft>
         <StyledImg src={colorScheme} />
     </StyledContainer>

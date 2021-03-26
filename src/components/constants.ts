@@ -37,4 +37,5 @@ export const Checkout = {
 export const ColorScheme = {
     name: 'Color Scheme',
     desc: colorSchemeDesc,
+    link: "https://github.com/j-hutchinson/ColorPalette"
 };

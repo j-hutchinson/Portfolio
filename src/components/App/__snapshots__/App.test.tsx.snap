@@ -30,6 +30,7 @@ exports[`App component component matches snapshot 1`] = `
     />
     <ProjectSection
       desc="Fun project to generate a color scheme based on a given Hue"
+      link="https://github.com/j-hutchinson/ColorPalette"
       name="Color Scheme"
     />
     <JobSection
