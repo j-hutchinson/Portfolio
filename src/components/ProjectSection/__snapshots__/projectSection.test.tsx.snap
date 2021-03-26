@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectSection component component matches snapshot with full profile 1`] = `
+<styled.section>
+  <styled.div>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <styled.h3>
+        <div>
+          name
+        </div>
+      </styled.h3>
+      <styled.h4>
+        React · Typescript 
+      </styled.h4>
+      <styled.p>
+        desc
+      </styled.p>
+    </div>
+    <styled.a>
+      Github
+    </styled.a>
+  </styled.div>
+  <styled.img
+    src="colorScheme.png"
+  />
+</styled.section>
+`;
