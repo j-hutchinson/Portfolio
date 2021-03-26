@@ -149,7 +149,7 @@ exports[`Socials component component matches snapshot 1`] = `
   <styled.li>
     <styled.a
       aria-label="Jack's LinkedIn"
-      href="https://linkedin.com/jack-hutchinson-dev"
+      href="https://linkedin.com/in/jack-hutchinson-dev"
       rel="noopener noreferrer"
       target="_blank"
     >

@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { colours } from '../../css/tokens'
 
 export const StyledContainer = styled.section`
     border-radius: 20px;
@@ -8,14 +7,14 @@ export const StyledContainer = styled.section`
     justify-content: space-between;
     gap: 32px;
     padding: 64px 48px;
-    max-width: 980px;
+    width: 900px;
     margin: 80px auto;
 
     :first-child {
         margin-top: -60px;
     }
 
-    @media screen and (max-width: 980px) {
+    @media screen and (max-width: 900px) {
         padding: 40px 20px;
         width: 560px;
     }
@@ -40,7 +39,7 @@ export const StyledContainer = styled.section`
 
 export const StyledCompanyName = styled.h3`
     margin: 0px;
-    font-size: 22px;
+    font-size: 36px;
     display: inline;
 
     @media screen and (max-width: 600px) {
@@ -50,25 +49,26 @@ export const StyledCompanyName = styled.h3`
 
 export const StyledTitle = styled.h4`
     margin: 8px 0px 16px;
-    color: ${colours.jobTitle};
+    font-weight: 300;
     font-size: 18px;
-    font-style: normal;
+    display: flex;
+    justify-content: space-between;
 
     @media screen and (max-width: 600px) {
         font-size: 16px;
+        flex-direction: column;
+        gap: 4px;
     }
 `;
 
-export const StyledDate = styled.p`
+export const StyledDate = styled.span`
     display: block;
     color: #9C9C9C;
-    font-size: 16px;
-    font-weight: 600;
-    margin: 8px 0px 0px;
+    font-weight: 300;
+    margin: 0px;
     text-overflow: ellipsis;
     word-wrap: break-word;
     overflow: hidden;
-    max-height: 6.5em;
 
     @media screen and (max-width: 600px) {
         font-size: 14px;
@@ -78,9 +78,9 @@ export const StyledDate = styled.p`
 
 export const StyledDescription = styled.p`
     display: block;
-    font-size: 16px;
-    width: 90%;
-    line-height: 22px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.47059;
     margin: 4px 0px 0px;
     
     @media screen and (max-width: 600px) {
@@ -88,8 +88,18 @@ export const StyledDescription = styled.p`
     }
 `;
 
+export const StyledLeft = styled.div`
+    width: 700px;
+
+    @media screen and (max-width: 800px) {
+        width: 100%;
+    }
+`;
+
 export const StyledLogo = styled.div`
     display: flex;
+    justify-content: center;
+    width: 200px;
 
     @media screen and (max-width: 800px) {
         margin: auto auto 16px;

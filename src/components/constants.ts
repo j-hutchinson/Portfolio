@@ -1,18 +1,29 @@
 export const Jobs = {
-    Mendeley: 'Mendeley / Elsevier',
+    Mendeley: 'Mendeley',
     Checkout: 'Checkout.com',
     CFG: 'Code First Girls',
 }
 
-const CKODesc = 'Software developer specialising in front end web development utilising JavaScript, React, GraphQL, Docker and AWS. Responsible for Checkout.com\'s documentation and API Referencing';
-const ElsDesc = 'Leading and designing the Front-end architecture within a cross-functional team developing a React web app and GraphQL service supporting multiple teams. Responsible for multiple micro-frontends supporting mendeley.com'
-const CFGDesc = 'Organised and ran events as part of a team, mentoring a group of 15-20 people on how to start coding. Lead several sessions, working directly with students in 2 hour lessons split into lecture and practical application of concepts. Covering topics such as HTML, CSS, bootstrap, javascript and git.'
-const colorSchemeDesc = 'Fun project to generate a color scheme based on a given Hue'
+const CKODesc = `
+    Software developer specialising in front end web development utilising JavaScript, React, GraphQL, Docker and AWS. 
+    Responsible for Checkout.com's documentation and API Referencing`;
+
+const ElsDesc = `
+    Leading and designing the Front-end architecture within a cross-functional team developing a React web app and 
+    GraphQL service supporting multiple teams. Responsible for multiple micro-frontends supporting mendeley.com`
+
+const CFGDesc = `
+    Organised and ran events as part of a team, mentoring a group of 15-20 people on how to start coding. 
+    Lead several sessions, working directly with students in 2 hour lessons split into lecture and practical application of concepts. 
+    Covering topics such as HTML, CSS, bootstrap, javascript and git.`
+
+const colorSchemeDesc = `Fun project to generate a color scheme based on a given Hue`;
 
 export const Mendeley = {
     name: Jobs.Mendeley,
     startDate: "04/09/17",
-    title: "Graduate Engineer -> Frontend Engineer",
+    endDate: "31/11/20",
+    title: "Graduate Engineer → Frontend Engineer",
     desc: ElsDesc,
     link: 'https://mendeley.com/search'
 };
