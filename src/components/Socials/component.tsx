@@ -69,7 +69,7 @@ const StyledSpanGithub = styled.span`
 const Socials = (theme) => (
     <StyledList >
         <StyledListItem>
-            <StyledLink href="https://github.com.j-hutchinson" target="_blank" rel="noopener noreferrer" aria-label="Jack's Github">
+            <StyledLink href="https://github.com/j-hutchinson" target="_blank" rel="noopener noreferrer" aria-label="Jack's Github">
                 <StyledI aria-hidden="true" theme={theme}></StyledI>
                 <StyledSpanGithub theme={theme}>
                     <FontAwesomeIcon icon={faGithub} />

@@ -92,13 +92,13 @@ const StyledLink = styled.a`
 
     :hover {
         color: ${colours.hover};
-        transition: 0.5s color linear; 
+        transition: all 0.5s linear; 
     }
 `;
 
 const StyledImg = styled.img`
     border-radius: 20px;    
-    box-shadow: 20px 20px 60px rgb(0 0 0 / 50%), -20px -20px 60px rgb(255 255 255 / 5%);
+    box-shadow: 20px 20px 60px rgb(0 0 0 / 20%), -20px -20px 60px rgb(255 255 255 / 5%);
     height: 480px;
     margin: auto;
 

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const StyledContainer = styled.section`
     border-radius: 20px;
-    box-shadow: 20px 20px 60px rgb(0 0 0 / 50%), -20px -20px 60px rgb(255 255 255 / 5%);
+    box-shadow: 20px 20px 60px rgb(0 0 0 / 20%), -20px -20px 60px rgb(255 255 255 / 5%);
     display: flex;
     justify-content: space-between;
     gap: 32px;
@@ -29,8 +29,6 @@ export const StyledContainer = styled.section`
             margin-top: 0px;
         }
     }
-
-  
 `;
 
 export const StyledTitle = styled.h3`
@@ -44,6 +42,7 @@ export const StyledTitle = styled.h3`
 `;
 
 export const StyledTools = styled.h4`
+    color: ${({ theme }) => theme.secondaryFontColor};
     margin: 8px 0px 16px;
     font-weight: 300;
     font-size: 18px;
@@ -100,11 +99,12 @@ export const StyledLink = styled.a`
 
 export const StyledImg = styled.img`
     border-radius: 20px;    
-    box-shadow: -10px -10px 30px rgb(255 255 255 / 5%), 10px 10px 30px rgb(0 0 0 / 80%);
+    box-shadow: -10px -10px 30px rgb(255 255 255 / 5%), 10px 10px 30px ${({ theme }) => theme.imgShadow};
     border-radius: 10px;
     overflow: hidden;
     height: 315px;
     width: 500px;
+    transition: all 0.4s linear;
 
     @media screen and (max-width: 900px) {
         height: 170px;

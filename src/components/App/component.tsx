@@ -25,9 +25,9 @@ const App = (): JSX.Element => {
           <Toggle toggleTheme={themeToggler} />
           <Introduction />
           <StyledBody >
-            <ProjectSection {...ColorScheme} />
-            <JobSection {...Checkout} />
-            <JobSection {...Mendeley} />
+            <ProjectSection {...ColorScheme} theme={themeMode} />
+            <JobSection {...Checkout} theme={themeMode} />
+            <JobSection {...Mendeley} theme={themeMode} />
             <ContactMe />
           </StyledBody>
         </>

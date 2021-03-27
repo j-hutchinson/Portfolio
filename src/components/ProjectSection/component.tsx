@@ -13,13 +13,14 @@ interface Props {
     desc: string;
     name: string;
     link: string;
+    theme: Theme;
 }
 
-const ProjectSection = ({ name, desc, link }: Props) => (
+const ProjectSection = ({ name, desc, link, theme }: Props) => (
     <StyledContainer>
         <StyledLeft>
             <div style={{ display: 'flex', justifyContent: 'space-between', flexDirection: 'column' }}>
-                <StyledTitle>
+                <StyledTitle theme={theme}>
                     <div>
                         {name}
                     </div>
@@ -29,7 +30,7 @@ const ProjectSection = ({ name, desc, link }: Props) => (
             </div>
             <StyledLink href={link} target="_blank" rel="noopener noreferrer">Github</StyledLink>
         </StyledLeft>
-        <StyledImg src={colorScheme} />
+        <StyledImg src={colorScheme} theme={theme} />
     </StyledContainer>
 )
 

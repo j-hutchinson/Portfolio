@@ -4,10 +4,11 @@ exports[`tokens SectionStyles 1`] = `
 Array [
   "
     border-radius: 20px;
-	box-shadow: 20px 20px 60px rgb(0 0 0 / 50%), -20px -20px 60px rgb(255 255 255 / 5%);
+	box-shadow: 20px 20px 60px rgb(0 0 0 / 20%), -20px -20px 60px rgb(255 255 255 / 5%);
 	padding: 64px 48px;
 	width: 900px;
 	margin: 80px auto;
+	transition: all 0.5s linear;
 
 	@media screen and (max-width: 900px) {
 		padding: 40px 20px;
@@ -35,7 +36,9 @@ Object {
   "border": "#EDEFE7",
   "fontColor": "white",
   "highlight": "#5198db",
+  "imgShadow": "rgb(0 0 0 / 80%)",
   "primaryBackground": "#222",
+  "secondarFontColor": "#AFB0B3",
   "secondaryBackground": "radial-gradient(118.99% 670.46% at -7.06% -9.5%,#191919 0%,#0a0a0a 100%)",
   "sectionBackground": "radial-gradient(118.99% 670.46% at -7.06% -9.5%,#191919 0%,#0a0a0a 100%)",
   "svgFill": "white",
@@ -48,7 +51,9 @@ Object {
   "border": "#32342B",
   "fontColor": "black",
   "highlight": "#3B68A9",
+  "imgShadow": "rgb(0 0 0 / 5%)",
   "primaryBackground": "#eee",
+  "secondarFontColor": "#525254",
   "secondaryBackground": "radial-gradient(118.99% 670.46% at -7.06% -9.5%,#FFFFFF 0%,#F1F1F1 100%)",
   "sectionBackground": "radial-gradient(118.99% 670.46% at -7.06% -9.5%,#FFFFFF 0%,#F1F1F1 100%)",
   "svgFill": "black",

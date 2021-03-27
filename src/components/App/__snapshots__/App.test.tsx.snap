@@ -8,7 +8,9 @@ exports[`App component component matches snapshot 1`] = `
       "border": "#32342B",
       "fontColor": "black",
       "highlight": "#3B68A9",
+      "imgShadow": "rgb(0 0 0 / 5%)",
       "primaryBackground": "#eee",
+      "secondarFontColor": "#525254",
       "secondaryBackground": "radial-gradient(118.99% 670.46% at -7.06% -9.5%,#FFFFFF 0%,#F1F1F1 100%)",
       "sectionBackground": "radial-gradient(118.99% 670.46% at -7.06% -9.5%,#FFFFFF 0%,#F1F1F1 100%)",
       "svgFill": "black",
@@ -25,6 +27,20 @@ exports[`App component component matches snapshot 1`] = `
       desc="Fun project to generate a color scheme based on a given Hue"
       link="https://github.com/j-hutchinson/ColorPalette"
       name="Color Scheme"
+      theme={
+        Object {
+          "background": "linear-gradient(to bottom right, #EDEBEF, #A6A7A4)",
+          "border": "#32342B",
+          "fontColor": "black",
+          "highlight": "#3B68A9",
+          "imgShadow": "rgb(0 0 0 / 5%)",
+          "primaryBackground": "#eee",
+          "secondarFontColor": "#525254",
+          "secondaryBackground": "radial-gradient(118.99% 670.46% at -7.06% -9.5%,#FFFFFF 0%,#F1F1F1 100%)",
+          "sectionBackground": "radial-gradient(118.99% 670.46% at -7.06% -9.5%,#FFFFFF 0%,#F1F1F1 100%)",
+          "svgFill": "black",
+        }
+      }
     />
     <JobSection
       desc="
@@ -33,6 +49,20 @@ exports[`App component component matches snapshot 1`] = `
       link="https://checkout.com/"
       name="Checkout.com"
       startDate="04/01/21"
+      theme={
+        Object {
+          "background": "linear-gradient(to bottom right, #EDEBEF, #A6A7A4)",
+          "border": "#32342B",
+          "fontColor": "black",
+          "highlight": "#3B68A9",
+          "imgShadow": "rgb(0 0 0 / 5%)",
+          "primaryBackground": "#eee",
+          "secondarFontColor": "#525254",
+          "secondaryBackground": "radial-gradient(118.99% 670.46% at -7.06% -9.5%,#FFFFFF 0%,#F1F1F1 100%)",
+          "sectionBackground": "radial-gradient(118.99% 670.46% at -7.06% -9.5%,#FFFFFF 0%,#F1F1F1 100%)",
+          "svgFill": "black",
+        }
+      }
       title="Senior Frontend Engineer"
     />
     <JobSection
@@ -43,6 +73,20 @@ exports[`App component component matches snapshot 1`] = `
       link="https://mendeley.com/search"
       name="Mendeley"
       startDate="04/09/17"
+      theme={
+        Object {
+          "background": "linear-gradient(to bottom right, #EDEBEF, #A6A7A4)",
+          "border": "#32342B",
+          "fontColor": "black",
+          "highlight": "#3B68A9",
+          "imgShadow": "rgb(0 0 0 / 5%)",
+          "primaryBackground": "#eee",
+          "secondarFontColor": "#525254",
+          "secondaryBackground": "radial-gradient(118.99% 670.46% at -7.06% -9.5%,#FFFFFF 0%,#F1F1F1 100%)",
+          "sectionBackground": "radial-gradient(118.99% 670.46% at -7.06% -9.5%,#FFFFFF 0%,#F1F1F1 100%)",
+          "svgFill": "black",
+        }
+      }
       title="Graduate Engineer → Frontend Engineer"
     />
     <ContactMe />

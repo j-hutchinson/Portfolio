@@ -18,9 +18,10 @@ interface Props {
     name: string;
     title: string;
     link: string;
+    theme: Theme;
 }
 
-const JobSection = ({ name, startDate, endDate = "present", title, desc, link }: Props) => (
+const JobSection = ({ name, startDate, endDate = "present", title, desc, link, theme }: Props) => (
     <StyledContainer>
         <StyledLeft>
             <StyledCompanyName>
@@ -28,7 +29,7 @@ const JobSection = ({ name, startDate, endDate = "present", title, desc, link }:
                     {name}
                 </StyledLink>
             </StyledCompanyName>
-            <StyledTitle>
+            <StyledTitle theme={theme}>
                 <span>
                     {title}
                 </span>
