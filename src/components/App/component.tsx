@@ -28,7 +28,7 @@ const App = (): JSX.Element => {
             <ProjectSection {...ColorScheme} theme={themeMode} />
             <JobSection {...Checkout} theme={themeMode} />
             <JobSection {...Mendeley} theme={themeMode} />
-            <ContactMe />
+            <ContactMe theme={themeMode} />
           </StyledBody>
         </>
       </>

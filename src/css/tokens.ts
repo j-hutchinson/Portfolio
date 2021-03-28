@@ -31,6 +31,7 @@ export const darkTheme: Theme = {
 	highlight: '#5198db',
 	imgShadow: 'rgb(0 0 0 / 80%)',
 }
+
 export const lightTheme: Theme = {
 	fontColor: 'black',
 	secondarFontColor: '#525254',

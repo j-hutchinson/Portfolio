@@ -16,7 +16,7 @@ const Button = styled.button`
     }
 `;
 
-const Toggle = ({ toggleTheme }) => (
+const Toggle = ({ toggleTheme }): JSX.Element => (
     <Button onClick={toggleTheme}>
         💡
     </Button>

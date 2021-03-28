@@ -33,8 +33,6 @@ export const StyledContainer = styled.section`
             margin-top: 0px;
         }
     }
-
-  
 `;
 
 export const StyledCompanyName = styled.h3`

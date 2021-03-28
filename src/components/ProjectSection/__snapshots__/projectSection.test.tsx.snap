@@ -3,16 +3,23 @@
 exports[`ProjectSection component component matches snapshot with full profile 1`] = `
 <styled.section>
   <styled.div>
-    <div
-      style={
-        Object {
-          "display": "flex",
-          "flexDirection": "column",
-          "justifyContent": "space-between",
+    <styled.div>
+      <styled.h3
+        theme={
+          Object {
+            "background": "linear-gradient(to bottom right, #383838, #1E1E1E)",
+            "border": "#EDEFE7",
+            "fontColor": "white",
+            "highlight": "#5198db",
+            "imgShadow": "rgb(0 0 0 / 80%)",
+            "primaryBackground": "#222",
+            "secondarFontColor": "#AFB0B3",
+            "secondaryBackground": "radial-gradient(118.99% 670.46% at -7.06% -9.5%,#191919 0%,#0a0a0a 100%)",
+            "sectionBackground": "radial-gradient(118.99% 670.46% at -7.06% -9.5%,#191919 0%,#0a0a0a 100%)",
+            "svgFill": "white",
+          }
         }
-      }
-    >
-      <styled.h3>
+      >
         <div>
           name
         </div>
@@ -23,7 +30,7 @@ exports[`ProjectSection component component matches snapshot with full profile 1
       <styled.p>
         desc
       </styled.p>
-    </div>
+    </styled.div>
     <styled.a
       rel="noopener noreferrer"
       target="_blank"
@@ -33,6 +40,20 @@ exports[`ProjectSection component component matches snapshot with full profile 1
   </styled.div>
   <styled.img
     src="colorScheme.png"
+    theme={
+      Object {
+        "background": "linear-gradient(to bottom right, #383838, #1E1E1E)",
+        "border": "#EDEFE7",
+        "fontColor": "white",
+        "highlight": "#5198db",
+        "imgShadow": "rgb(0 0 0 / 80%)",
+        "primaryBackground": "#222",
+        "secondarFontColor": "#AFB0B3",
+        "secondaryBackground": "radial-gradient(118.99% 670.46% at -7.06% -9.5%,#191919 0%,#0a0a0a 100%)",
+        "sectionBackground": "radial-gradient(118.99% 670.46% at -7.06% -9.5%,#191919 0%,#0a0a0a 100%)",
+        "svgFill": "white",
+      }
+    }
   />
 </styled.section>
 `;

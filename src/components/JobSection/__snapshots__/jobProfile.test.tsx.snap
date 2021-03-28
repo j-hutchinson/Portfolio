@@ -13,7 +13,22 @@ exports[`JobProfile component component matches snapshot with full profile 1`] =
         name
       </styled.a>
     </styled.h3>
-    <styled.h4>
+    <styled.h4
+      theme={
+        Object {
+          "background": "linear-gradient(to bottom right, #383838, #1E1E1E)",
+          "border": "#EDEFE7",
+          "fontColor": "white",
+          "highlight": "#5198db",
+          "imgShadow": "rgb(0 0 0 / 80%)",
+          "primaryBackground": "#222",
+          "secondarFontColor": "#AFB0B3",
+          "secondaryBackground": "radial-gradient(118.99% 670.46% at -7.06% -9.5%,#191919 0%,#0a0a0a 100%)",
+          "sectionBackground": "radial-gradient(118.99% 670.46% at -7.06% -9.5%,#191919 0%,#0a0a0a 100%)",
+          "svgFill": "white",
+        }
+      }
+    >
       <span>
         title
       </span>
@@ -46,7 +61,22 @@ exports[`JobProfile component component matches snapshot with no endDate 1`] = `
         name
       </styled.a>
     </styled.h3>
-    <styled.h4>
+    <styled.h4
+      theme={
+        Object {
+          "background": "linear-gradient(to bottom right, #383838, #1E1E1E)",
+          "border": "#EDEFE7",
+          "fontColor": "white",
+          "highlight": "#5198db",
+          "imgShadow": "rgb(0 0 0 / 80%)",
+          "primaryBackground": "#222",
+          "secondarFontColor": "#AFB0B3",
+          "secondaryBackground": "radial-gradient(118.99% 670.46% at -7.06% -9.5%,#191919 0%,#0a0a0a 100%)",
+          "sectionBackground": "radial-gradient(118.99% 670.46% at -7.06% -9.5%,#191919 0%,#0a0a0a 100%)",
+          "svgFill": "white",
+        }
+      }
+    >
       <span>
         title
       </span>

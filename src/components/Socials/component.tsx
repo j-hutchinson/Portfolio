@@ -66,36 +66,36 @@ const StyledSpanGithub = styled.span`
     position: absolute;
 `;
 
-const Socials = (theme) => (
+const Socials = (): JSX.Element => (
     <StyledList >
         <StyledListItem>
             <StyledLink href="https://github.com/j-hutchinson" target="_blank" rel="noopener noreferrer" aria-label="Jack's Github">
-                <StyledI aria-hidden="true" theme={theme}></StyledI>
-                <StyledSpanGithub theme={theme}>
+                <StyledI aria-hidden="true"></StyledI>
+                <StyledSpanGithub>
                     <FontAwesomeIcon icon={faGithub} />
                 </StyledSpanGithub>
             </StyledLink>
         </StyledListItem>
         <StyledListItem>
             <StyledLink href="https://twitter.com/jack_hutchy" target="_blank" rel="noopener noreferrer" aria-label="Jack's Twitter">
-                <StyledI aria-hidden="true" theme={theme} ></StyledI>
-                <StyledSpanLarge theme={theme}>
+                <StyledI aria-hidden="true" ></StyledI>
+                <StyledSpanLarge>
                     <FontAwesomeIcon icon={faTwitter} />
                 </StyledSpanLarge>
             </StyledLink>
         </StyledListItem>
         <StyledListItem>
             <StyledLink href="https://instagram.com/jack_hutchy" target="_blank" rel="noopener noreferrer" aria-label="Jack's Instagram">
-                <StyledI aria-hidden="true" theme={theme}></StyledI>
-                <StyledSpan theme={theme}>
+                <StyledI aria-hidden="true"></StyledI>
+                <StyledSpan>
                     <FontAwesomeIcon icon={faInstagram} />
                 </StyledSpan>
             </StyledLink>
         </StyledListItem>
         <StyledListItem>
             <StyledLink href="https://linkedin.com/in/jack-hutchinson-dev" target="_blank" rel="noopener noreferrer" aria-label="Jack's LinkedIn">
-                <StyledI aria-hidden="true" theme={theme}></StyledI>
-                <StyledSpan theme={theme}>
+                <StyledI aria-hidden="true"></StyledI>
+                <StyledSpan>
                     <FontAwesomeIcon icon={faLinkedin} />
                 </StyledSpan>
             </StyledLink>

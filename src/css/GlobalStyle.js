@@ -1,11 +1,6 @@
 import { createGlobalStyle } from "styled-components"
 
 export const GlobalStyles = createGlobalStyle`
-    main {
-      background: ${({ theme }) => theme.background};
-      transition: all 0.5s linear;
-    }
-
     header {
       background: ${({ theme }) => theme.primaryBackground};
       transition: all 0.5s linear;

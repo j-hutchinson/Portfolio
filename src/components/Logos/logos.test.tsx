@@ -9,6 +9,7 @@ describe('Logos component', () => {
 
         expect(wrapper).toMatchSnapshot();
     });
+
     test('MendeleyLogo matches snapshot', () => {
         expect.assertions(1);
 
@@ -16,6 +17,7 @@ describe('Logos component', () => {
 
         expect(wrapper).toMatchSnapshot();
     });
+
     test('CheckoutLogo matches snapshot', () => {
         expect.assertions(1);
 
