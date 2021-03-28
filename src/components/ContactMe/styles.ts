@@ -14,13 +14,16 @@ export const StyledContainer = styled.section`
         margin-top: -60px;
     }
 
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 1100px) {
         padding: 40px 20px;
+        width: 760px;
+    }
+
+    @media screen and (max-width: 900px) {
         width: 560px;
     }
    
     @media screen and (max-width: 600px) {
-        padding: 40px 20px;
         width: 335px;
     }
 
@@ -54,14 +57,6 @@ export const StyledDescription = styled.p`
     }
 `;
 
-export const StyledLogo = styled.div`
-    display: flex;
-
-    @media screen and (max-width: 800px) {
-        margin: auto auto 16px;
-    }
-`;
-
 export const StyledLink = styled.a`
     color: #EEE;
     background: #363636;
@@ -87,24 +82,6 @@ export const StyledLink = styled.a`
         margin: 24px 0px 0px;
     }
 `;
-
-export const StyledImg = styled.img`
-    border-radius: 20px;    
-    box-shadow: -10px -10px 30px rgb(255 255 255 / 5%), 10px 10px 30px ${({ theme }) => theme.imgShadow};
-    border-radius: 10px;
-    overflow: hidden;
-    height: 315px;
-    width: 500px;
-    transition: all 0.4s linear;
-    margin-top: 16px;
-
-    @media screen and (max-width: 900px) {
-        height: 170px;
-        width: 300px;
-        margin: auto;
-    }
-`;
-
 
 export const StyledLeft = styled.div`
     display: flex;

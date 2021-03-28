@@ -14,6 +14,11 @@ export const StyledContainer = styled.section`
         margin-top: -60px;
     }
 
+    @media screen and (max-width: 1100px) {
+        padding: 40px 20px;
+        width: 760px;
+    }
+
     @media screen and (max-width: 900px) {
         padding: 40px 20px;
         width: 560px;

@@ -123,7 +123,12 @@ const Introduction = (): JSX.Element => (
                 </StyledPara>
                 <Socials />
             </StyledTextContainer>
-            <StyledImg src={space} height="480px" width="343px" alt="Spaceman" loading="lazy" />
+            <StyledImg
+                alt="Spaceman"
+                height="480px"
+                width="343px"
+                src={space}
+                loading="lazy" />
         </StyledText>
     </StyledWrapper >
 );

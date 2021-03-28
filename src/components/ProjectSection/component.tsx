@@ -30,7 +30,11 @@ const ProjectSection = ({ name, desc, link, theme }: Props) => (
             </StyledLeft>
             <StyledLink href={link} target="_blank" rel="noopener noreferrer">Github</StyledLink>
         </StyledLeft>
-        <StyledImg src={colorScheme} theme={theme} />
+        <StyledImg
+            src={colorScheme}
+            theme={theme}
+            loading="lazy"
+            alt="Screenshot from Color Scheme project" />
     </StyledContainer>
 )
 

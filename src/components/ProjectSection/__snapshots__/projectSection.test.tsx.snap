@@ -39,6 +39,8 @@ exports[`ProjectSection component component matches snapshot with full profile 1
     </styled.a>
   </styled.div>
   <styled.img
+    alt="Screenshot from Color Scheme project"
+    loading="lazy"
     src="colorScheme.png"
     theme={
       Object {

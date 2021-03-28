@@ -5,7 +5,6 @@ export const StyledContainer = styled.section`
     box-shadow: 20px 20px 60px rgb(0 0 0 / 20%), -20px -20px 60px rgb(255 255 255 / 5%);
     display: flex;
     justify-content: space-between;
-    gap: 32px;
     padding: 64px 48px;
     width: 900px;
     margin: 80px auto;
@@ -14,13 +13,17 @@ export const StyledContainer = styled.section`
         margin-top: -60px;
     }
 
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 1100px) {
         padding: 40px 20px;
-        width: 560px;
+        width: 760px;
+    }
+    
+    @media screen and (max-width: 900px) {
+        width: 550px;
     }
    
     @media screen and (max-width: 600px) {
-        padding: 40px 20px;
+        flex-direction: column-reverse;
         width: 335px;
     }
 
@@ -102,14 +105,21 @@ export const StyledImg = styled.img`
     box-shadow: -10px -10px 30px rgb(255 255 255 / 5%), 10px 10px 30px ${({ theme }) => theme.imgShadow};
     border-radius: 10px;
     overflow: hidden;
-    height: 315px;
+    height: 295px;
     width: 500px;
     transition: all 0.4s linear;
+    margin-left: 32px;
 
     @media screen and (max-width: 900px) {
-        height: 170px;
+        height: 178px;
         width: 300px;
-        margin: auto;
+        margin: auto auto auto 32px;
+    }
+    
+    @media screen and (max-width: 600px) {
+        height: 178px;
+        width: 300px;
+        margin: auto auto 32px;
     }
 `;
 

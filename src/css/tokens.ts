@@ -1,24 +1,3 @@
-import { css } from 'styled-components';
-
-export const SectionStyles = css`
-    border-radius: 20px;
-	box-shadow: 20px 20px 60px rgb(0 0 0 / 20%), -20px -20px 60px rgb(255 255 255 / 5%);
-	padding: 64px 48px;
-	width: 900px;
-	margin: 80px auto;
-	transition: all 0.5s linear;
-
-	@media screen and (max-width: 900px) {
-		padding: 40px 20px;
-		width: 560px;
-	}
-
-	@media screen and (max-width: 600px) {
-		padding: 40px 20px;
-		width: 335px;
-	}
-`;
-
 export const darkTheme: Theme = {
 	fontColor: 'white',
 	secondarFontColor: '#AFB0B3',

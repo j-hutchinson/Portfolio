@@ -5,7 +5,7 @@ export const Jobs = {
 }
 
 const CKODesc = `
-    Software developer specialising in front end web development utilising JavaScript, React, GraphQL, Docker and AWS. 
+    Senior Software engineer specialising in front end web development utilising JavaScript, React, Docker and AWS. 
     Responsible for Checkout.com's documentation and API Referencing`;
 
 const ElsDesc = `
