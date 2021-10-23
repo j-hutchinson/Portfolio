@@ -32,13 +32,6 @@ exports[`JobProfile component component matches snapshot with full profile 1`] =
       <span>
         title
       </span>
-      <styled.span>
-        startDate
-         
-        -&gt;
-         
-        endDate
-      </styled.span>
     </styled.h4>
     <styled.p>
       desc
@@ -80,12 +73,6 @@ exports[`JobProfile component component matches snapshot with no endDate 1`] = `
       <span>
         title
       </span>
-      <styled.span>
-        startDate
-         
-        -&gt;
-         
-      </styled.span>
     </styled.h4>
     <styled.p>
       desc

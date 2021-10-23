@@ -16,7 +16,7 @@ interface Props {
     theme: Theme;
 }
 
-const ProjectSection = ({ name, desc, link, theme }: Props) => (
+const ProjectSection: React.FC<Props> = ({ name, desc, link, theme }): JSX.Element => (
     <StyledContainer>
         <StyledLeft>
             <StyledLeft>

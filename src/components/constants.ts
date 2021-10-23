@@ -6,11 +6,11 @@ export const Jobs = {
 
 const CKODesc = `
     Senior Software engineer specialising in front end web development utilising JavaScript, React, Docker and AWS. 
-    Responsible for Checkout.com's documentation and API Referencing`;
+    Responsible for Checkout.com's documentation and API Referencing.`;
 
 const ElsDesc = `
     Leading and designing the Front-end architecture within a cross-functional team developing a React web app and 
-    GraphQL service supporting multiple teams. Responsible for multiple micro-frontends supporting mendeley.com`
+    GraphQL service supporting multiple teams. Responsible for multiple micro-frontends supporting mendeley.com.`
 
 const CFGDesc = `
     Organised and ran events as part of a team, mentoring a group of 15-20 people on how to start coding. 
@@ -23,7 +23,7 @@ export const Mendeley = {
     name: Jobs.Mendeley,
     startDate: "04/09/17",
     endDate: "31/11/20",
-    title: "Graduate Engineer → Frontend Engineer",
+    title: "Graduate Engineer",
     desc: ElsDesc,
     link: 'https://mendeley.com/search'
 };

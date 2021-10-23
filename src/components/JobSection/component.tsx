@@ -3,7 +3,6 @@ import { CFGLogo, CheckoutLogo, MendeleyLogo } from '../Logos/component';
 import {
     StyledCompanyName,
     StyledContainer,
-    StyledDate,
     StyledDescription,
     StyledLink,
     StyledLogo,
@@ -14,14 +13,14 @@ import {
 interface Props {
     desc: string;
     endDate?: string;
-    startDate: string;
+    startDate?: string;
     name: string;
     title: string;
     link: string;
     theme: Theme;
 }
 
-const JobSection = ({ name, startDate, endDate = "present", title, desc, link, theme }: Props) => (
+const JobSection: React.FC<Props> = ({ name, title, desc, link, theme }): JSX.Element => (
     <StyledContainer>
         <StyledLeft>
             <StyledCompanyName>
@@ -33,9 +32,6 @@ const JobSection = ({ name, startDate, endDate = "present", title, desc, link, t
                 <span>
                     {title}
                 </span>
-                <StyledDate>
-                    {startDate} {"->"} {endDate}
-                </StyledDate>
             </StyledTitle>
             <StyledDescription>{desc}</StyledDescription>
         </StyledLeft>

@@ -25,6 +25,6 @@ export const lightTheme: Theme = {
 }
 
 export const colours = {
-	hover: '#78A5CE',
+	hover: '#91CBFF',
 	jobTitle: '#878787',
 }

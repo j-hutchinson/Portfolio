@@ -8,7 +8,7 @@ exports[`Introduction component component matches snapshot 1`] = `
         Jack Hutchinson
       </styled.h1>
       <styled.h2>
-        Full stack engineer at
+        Senior Front end engineer at
          
         <styled.a
           href="https://checkout.com"
@@ -19,7 +19,7 @@ exports[`Introduction component component matches snapshot 1`] = `
         </styled.a>
       </styled.h2>
       <styled.p>
-        Building reliable and scalable systems by day. Leveraging technology to launch fully featured products by night.
+        Building reliable and scalable systems by day. Leveraging technology to launch fully featured products by night. Design systems · A11y · Javascript
       </styled.p>
       <Socials />
     </styled.div>

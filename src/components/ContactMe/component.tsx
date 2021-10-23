@@ -10,7 +10,7 @@ interface Props {
   theme: Theme;
 }
 
-const ContactMe = ({ theme }: Props) => (
+const ContactMe: React.FC<Props> = ({ theme }): JSX.Element => (
   <StyledContainer>
     <StyledLeft>
       <StyledTitle theme={theme}>
