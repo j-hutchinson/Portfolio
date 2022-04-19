@@ -1,15 +1,16 @@
 import { faGithub, faInstagram, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { 
+import {
     StyledList,
     StyledListItem,
     StyledLink,
     StyledI,
     StyledSpanLarge,
     StyledSpan,
-    StyledSpanGithub } from './Socials.styles';
+    StyledSpanGithub
+} from './Socials.styles';
 
-const Socials: React.FC = (): JSX.Element => (
+export const Socials: React.FC = (): JSX.Element => (
     <StyledList >
         <StyledListItem>
             <StyledLink href="https://github.com/j-hutchinson" target="_blank" rel="noopener noreferrer" aria-label="Jack's Github">
@@ -45,5 +46,3 @@ const Socials: React.FC = (): JSX.Element => (
         </StyledListItem>
     </StyledList>
 );
-
-export default Socials;

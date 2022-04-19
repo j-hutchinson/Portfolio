@@ -10,7 +10,7 @@ interface Props {
   theme: Theme;
 }
 
-const ContactMe: React.FC<Props> = ({ theme }): JSX.Element => (
+export const ContactMe: React.FC<Props> = ({ theme }): JSX.Element => (
   <StyledContainer>
     <StyledLeft>
       <StyledTitle theme={theme}>
@@ -25,6 +25,4 @@ const ContactMe: React.FC<Props> = ({ theme }): JSX.Element => (
       </div>
     </StyledLeft>
   </StyledContainer>
-)
-
-export default ContactMe;
+);

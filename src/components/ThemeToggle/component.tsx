@@ -16,10 +16,8 @@ const Button = styled.button`
     }
 `;
 
-const Toggle = ({ toggleTheme }): JSX.Element => (
+export const Toggle = ({ toggleTheme }): JSX.Element => (
     <Button onClick={toggleTheme}>
         💡
     </Button>
 );
-
-export default Toggle;

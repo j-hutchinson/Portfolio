@@ -1,6 +1,6 @@
 import { shallow } from 'enzyme';
 import { darkTheme } from '../../css/tokens';
-import ContactMe from './component';
+import { ContactMe } from './component';
 
 describe('ContactMe component', () => {
     test('component matches snapshot', () => {

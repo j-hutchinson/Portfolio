@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`JobProfile component component matches snapshot with full profile 1`] = `
+exports[`JobSection component component matches snapshot with full profile 1`] = `
 <styled.section>
   <styled.div>
     <styled.h3>
@@ -33,15 +33,15 @@ exports[`JobProfile component component matches snapshot with full profile 1`] =
         title
       </span>
     </styled.h4>
-    <styled.p>
-      desc
-    </styled.p>
+    <Description
+      desc="desc"
+    />
   </styled.div>
   <styled.div />
 </styled.section>
 `;
 
-exports[`JobProfile component component matches snapshot with no endDate 1`] = `
+exports[`JobSection component component matches snapshot with no endDate 1`] = `
 <styled.section>
   <styled.div>
     <styled.h3>
@@ -74,9 +74,9 @@ exports[`JobProfile component component matches snapshot with no endDate 1`] = `
         title
       </span>
     </styled.h4>
-    <styled.p>
-      desc
-    </styled.p>
+    <Description
+      desc="desc"
+    />
   </styled.div>
   <styled.div />
 </styled.section>

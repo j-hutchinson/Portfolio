@@ -1,5 +1,5 @@
 import { shallow } from 'enzyme';
-import Socials from './component';
+import { Socials } from './component';
 
 describe('Socials component', () => {
     test('component matches snapshot', () => {

@@ -1,16 +1,17 @@
-import Socials from '../Socials/component';
+import { Socials } from '../Socials';
 import space from './space.jpg';
 import {
-    StyledWrapper, 
-    StyledText, 
-    StyledTextContainer, 
+    StyledWrapper,
+    StyledText,
+    StyledTextContainer,
     StyledHeading,
-    StyledH2, 
-    StyledPara, 
-    StyledLink, 
-    StyledImg }  from './Introduction.styles';
+    StyledH2,
+    StyledPara,
+    StyledLink,
+    StyledImg
+} from './Introduction.styles';
 
-const Introduction: React.FC = (): JSX.Element => (
+export const Introduction: React.FC = (): JSX.Element => (
     <StyledWrapper>
         <StyledText>
             <StyledTextContainer>
@@ -31,10 +32,8 @@ const Introduction: React.FC = (): JSX.Element => (
                 alt="Spaceman"
                 height="480px"
                 width="343px"
-                src={space}
+                src='https://raw.githubusercontent.com/j-hutchinson/Portfolio/main/src/components/Introduction/space.jpg'
                 loading="lazy" />
         </StyledText>
     </StyledWrapper >
 );
-
-export default Introduction;

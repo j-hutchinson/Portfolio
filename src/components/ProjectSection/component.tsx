@@ -1,7 +1,7 @@
+import { Description } from '../DescriptionText';
 import colorScheme from './colorScheme.png';
 import {
     StyledContainer,
-    StyledDescription,
     StyledImg,
     StyledLeft,
     StyledLink,
@@ -16,26 +16,22 @@ interface Props {
     theme: Theme;
 }
 
-const ProjectSection: React.FC<Props> = ({ name, desc, link, theme }): JSX.Element => (
+export const ProjectSection: React.FC<Props> = ({ name, desc, link, theme }): JSX.Element => (
     <StyledContainer>
         <StyledLeft>
             <StyledLeft>
                 <StyledTitle theme={theme}>
-                    <div>
-                        {name}
-                    </div>
+                    {name}
                 </StyledTitle>
                 <StyledTools>React · Typescript </StyledTools>
-                <StyledDescription>{desc}</StyledDescription>
+                <Description desc={desc} />
             </StyledLeft>
             <StyledLink href={link} target="_blank" rel="noopener noreferrer">Github</StyledLink>
         </StyledLeft>
         <StyledImg
-            src={colorScheme}
+            src='https://raw.githubusercontent.com/j-hutchinson/Portfolio/main/src/components/ProjectSection/colorScheme.png'
             theme={theme}
             loading="lazy"
             alt="Screenshot from Color Scheme project" />
     </StyledContainer>
-)
-
-export default ProjectSection;
+);

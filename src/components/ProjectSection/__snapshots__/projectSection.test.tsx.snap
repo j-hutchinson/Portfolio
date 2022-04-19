@@ -20,16 +20,14 @@ exports[`ProjectSection component component matches snapshot with full profile 1
           }
         }
       >
-        <div>
-          name
-        </div>
+        name
       </styled.h3>
       <styled.h4>
         React · Typescript 
       </styled.h4>
-      <styled.p>
-        desc
-      </styled.p>
+      <Description
+        desc="desc"
+      />
     </styled.div>
     <styled.a
       rel="noopener noreferrer"
@@ -41,7 +39,7 @@ exports[`ProjectSection component component matches snapshot with full profile 1
   <styled.img
     alt="Screenshot from Color Scheme project"
     loading="lazy"
-    src="colorScheme.png"
+    src="https://raw.githubusercontent.com/j-hutchinson/Portfolio/main/src/components/ProjectSection/colorScheme.png"
     theme={
       Object {
         "background": "linear-gradient(to bottom right, #383838, #1E1E1E)",

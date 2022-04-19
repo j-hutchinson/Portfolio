@@ -25,8 +25,8 @@ exports[`App component component matches snapshot 1`] = `
   <styled.main>
     <JobSection
       desc="
-    Senior Software engineer specialising in front end web development utilising JavaScript, React, Docker and AWS. 
-    Responsible for Checkout.com's documentation and API Referencing."
+    Senior Software engineer specialising in front end web development responsible for Checkout.com's documentation rebuild. Currently working on 
+    our Design System and micro-frontend architecture."
       link="https://checkout.com/"
       name="Checkout.com"
       startDate="04/01/21"
@@ -70,8 +70,33 @@ exports[`App component component matches snapshot 1`] = `
       }
       title="Graduate Engineer"
     />
+    <JobSection
+      desc="
+    Organised and ran events as part of a team, mentoring a group of 15-20 people on how to start coding. 
+    Lead several sessions, working directly with students in 2 hour lessons split into lecture and practical application of concepts. 
+    Covering topics such as HTML, CSS, bootstrap, javascript and git."
+      endDate="04/20"
+      link="https://codefirstgirls.org.uk/"
+      name="Code First Girls"
+      startDate="01/20"
+      theme={
+        Object {
+          "background": "linear-gradient(to bottom right, #EDEBEF, #A6A7A4)",
+          "border": "#32342B",
+          "fontColor": "black",
+          "highlight": "#3B68A9",
+          "imgShadow": "rgb(0 0 0 / 5%)",
+          "primaryBackground": "#eee",
+          "secondarFontColor": "#525254",
+          "secondaryBackground": "radial-gradient(118.99% 670.46% at -7.06% -9.5%,#FFFFFF 0%,#F1F1F1 100%)",
+          "sectionBackground": "radial-gradient(118.99% 670.46% at -7.06% -9.5%,#FFFFFF 0%,#F1F1F1 100%)",
+          "svgFill": "black",
+        }
+      }
+      title="Instructor"
+    />
     <ProjectSection
-      desc="Fun project to generate a color scheme based on a given Hue"
+      desc="Fun project to generate a color scheme based on a given Hue, mostly aimed at learning how to publish npm packages and manage versions"
       link="https://github.com/j-hutchinson/ColorPalette"
       name="Color Scheme"
       theme={

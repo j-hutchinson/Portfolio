@@ -28,3 +28,7 @@ export const colours = {
 	hover: '#91CBFF',
 	jobTitle: '#878787',
 }
+
+export const tokens = {
+	titleFontSize: '32px'
+}

@@ -1,5 +1,5 @@
 import { shallow } from 'enzyme';
-import Toggle from './component';
+import { Toggle } from './component';
 
 describe('Toggle component', () => {
     afterEach(() => {

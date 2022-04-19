@@ -1,6 +1,6 @@
 import { shallow } from 'enzyme';
 import { darkTheme } from '../../css/tokens';
-import ProjectSection from './component';
+import { ProjectSection } from './component';
 
 describe('ProjectSection component', () => {
     const profile = {

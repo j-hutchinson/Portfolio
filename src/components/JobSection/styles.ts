@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { tokens } from '../../css/tokens';
 
 export const StyledContainer = styled.section`
     border-radius: 20px;
@@ -42,7 +43,7 @@ export const StyledContainer = styled.section`
 
 export const StyledCompanyName = styled.h3`
     margin: 0px;
-    font-size: 36px;
+    font-size: ${tokens.titleFontSize};
     display: inline;
 
     @media screen and (max-width: 600px) {
@@ -81,14 +82,10 @@ export const StyledDate = styled.span`
 
 export const StyledDescription = styled.p`
     display: block;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 300;
     line-height: 1.47059;
     margin: 4px 0px 0px;
-    
-    @media screen and (max-width: 600px) {
-        font-size: 14px;
-    }
 `;
 
 export const StyledLeft = styled.div`

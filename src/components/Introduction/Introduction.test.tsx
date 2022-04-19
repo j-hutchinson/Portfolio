@@ -1,5 +1,5 @@
 import { shallow } from 'enzyme';
-import Introduction from './component';
+import { Introduction } from './component';
 
 describe('Introduction component', () => {
     test('component matches snapshot', () => {

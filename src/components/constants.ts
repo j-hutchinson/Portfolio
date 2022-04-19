@@ -5,8 +5,8 @@ export const Jobs = {
 }
 
 const CKODesc = `
-    Senior Software engineer specialising in front end web development utilising JavaScript, React, Docker and AWS. 
-    Responsible for Checkout.com's documentation and API Referencing.`;
+    Senior Software engineer specialising in front end web development responsible for Checkout.com's documentation rebuild. Currently working on 
+    our Design System and micro-frontend architecture.`;
 
 const ElsDesc = `
     Leading and designing the Front-end architecture within a cross-functional team developing a React web app and 
@@ -17,7 +17,7 @@ const CFGDesc = `
     Lead several sessions, working directly with students in 2 hour lessons split into lecture and practical application of concepts. 
     Covering topics such as HTML, CSS, bootstrap, javascript and git.`
 
-const colorSchemeDesc = `Fun project to generate a color scheme based on a given Hue`;
+const colorSchemeDesc = 'Fun project to generate a color scheme based on a given Hue, mostly aimed at learning how to publish npm packages and manage versions';
 
 export const Mendeley = {
     name: Jobs.Mendeley,

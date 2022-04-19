@@ -1,13 +1,12 @@
 import styled, { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from "../../css/GlobalStyle";
 import { darkTheme, lightTheme } from "../../css/tokens";
-import { Checkout, ColorScheme, Mendeley } from '../constants';
-import ContactMe from '../ContactMe/component';
-import Introduction from '../Introduction/component';
-import JobSection from '../JobSection/component';
-import ProjectSection from '../ProjectSection/component';
-import Toggle from "../ThemeToggle/component";
-import { useDarkMode } from "../ThemeToggle/useDarkMode";
+import { Checkout, ColorScheme, Mendeley, CodeFirstGirls } from '../constants';
+import { ContactMe } from '../ContactMe';
+import { Introduction } from '../Introduction';
+import { JobSection } from '../JobSection';
+import { ProjectSection } from '../ProjectSection';
+import { Toggle, useDarkMode } from "../ThemeToggle";
 
 const StyledBody = styled.main`
   padding-bottom: 64px;
@@ -21,18 +20,17 @@ const App = (): JSX.Element => {
     <ThemeProvider theme={themeMode}>
       <>
         <GlobalStyles />
-        <>
-          <Toggle toggleTheme={themeToggler} />
-          <Introduction />
-          <StyledBody >
-            <JobSection {...Checkout} theme={themeMode} />
-            <JobSection {...Mendeley} theme={themeMode} />
-            <ProjectSection {...ColorScheme} theme={themeMode} />
-            <ContactMe theme={themeMode} />
-          </StyledBody>
-        </>
+        <Toggle toggleTheme={themeToggler} />
+        <Introduction />
+        <StyledBody >
+          <JobSection {...Checkout} theme={themeMode} />
+          <JobSection {...Mendeley} theme={themeMode} />
+          <JobSection {...CodeFirstGirls} theme={themeMode} />
+          <ProjectSection {...ColorScheme} theme={themeMode} />
+          <ContactMe theme={themeMode} />
+        </StyledBody>
       </>
-    </ThemeProvider>
+    </ThemeProvider >
   )
 };
 

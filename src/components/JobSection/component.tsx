@@ -1,9 +1,9 @@
 import { Jobs } from '../constants';
 import { CFGLogo, CheckoutLogo, MendeleyLogo } from '../Logos/component';
+import { Description } from '../DescriptionText';
 import {
     StyledCompanyName,
     StyledContainer,
-    StyledDescription,
     StyledLink,
     StyledLogo,
     StyledLeft,
@@ -20,7 +20,7 @@ interface Props {
     theme: Theme;
 }
 
-const JobSection: React.FC<Props> = ({ name, title, desc, link, theme }): JSX.Element => (
+export const JobSection: React.FC<Props> = ({ name, title, desc, link, theme }): JSX.Element => (
     <StyledContainer>
         <StyledLeft>
             <StyledCompanyName>
@@ -33,7 +33,7 @@ const JobSection: React.FC<Props> = ({ name, title, desc, link, theme }): JSX.El
                     {title}
                 </span>
             </StyledTitle>
-            <StyledDescription>{desc}</StyledDescription>
+            <Description desc={desc} />
         </StyledLeft>
         <StyledLogo>
             {name === Jobs.Mendeley && <MendeleyLogo />}
@@ -41,6 +41,4 @@ const JobSection: React.FC<Props> = ({ name, title, desc, link, theme }): JSX.El
             {name === Jobs.Checkout && <CheckoutLogo />}
         </StyledLogo>
     </StyledContainer>
-)
-
-export default JobSection;
+);
