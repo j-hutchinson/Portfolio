@@ -29,7 +29,7 @@ export const ProjectSection: React.FC<Props> = ({ name, desc, link, theme }): JS
             <StyledLink href={link} target="_blank" rel="noopener noreferrer">Github</StyledLink>
         </StyledLeft>
         <StyledImg
-            src='https://raw.githubusercontent.com/j-hutchinson/Portfolio/main/src/components/ProjectSection/colorScheme.png'
+            src={colorScheme}
             theme={theme}
             loading="lazy"
             alt="Screenshot from Color Scheme project" />

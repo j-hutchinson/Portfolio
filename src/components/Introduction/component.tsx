@@ -1,5 +1,5 @@
 import { Socials } from '../Socials';
-import space from './space.jpg';
+import space from './spaceman.jpg';
 import {
     StyledWrapper,
     StyledText,
@@ -32,7 +32,7 @@ export const Introduction: React.FC = (): JSX.Element => (
                 alt="Spaceman"
                 height="480px"
                 width="343px"
-                src='https://raw.githubusercontent.com/j-hutchinson/Portfolio/main/src/components/Introduction/space.jpg'
+                src={space}
                 loading="lazy" />
         </StyledText>
     </StyledWrapper >

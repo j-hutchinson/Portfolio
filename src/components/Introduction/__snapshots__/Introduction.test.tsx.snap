@@ -27,7 +27,7 @@ exports[`Introduction component component matches snapshot 1`] = `
       alt="Spaceman"
       height="480px"
       loading="lazy"
-      src="https://raw.githubusercontent.com/j-hutchinson/Portfolio/main/src/components/Introduction/space.jpg"
+      src="spaceman.jpg"
       width="343px"
     />
   </styled.div>

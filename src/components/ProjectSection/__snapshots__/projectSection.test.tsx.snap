@@ -39,7 +39,7 @@ exports[`ProjectSection component component matches snapshot with full profile 1
   <styled.img
     alt="Screenshot from Color Scheme project"
     loading="lazy"
-    src="https://raw.githubusercontent.com/j-hutchinson/Portfolio/main/src/components/ProjectSection/colorScheme.png"
+    src="colorScheme.png"
     theme={
       Object {
         "background": "linear-gradient(to bottom right, #383838, #1E1E1E)",
