@@ -18,13 +18,13 @@ export const Introduction: React.FC = (): JSX.Element => (
                 <StyledHeading>Jack Hutchinson</StyledHeading>
                 <StyledH2>
                     Senior Front end engineer at{' '}
-                    <StyledLink href="https://checkout.com" target="_blank" rel="noopener noreferrer">
-                        Checkout.com
+                    <StyledLink href="https://tray.io" target="_blank" rel="noopener noreferrer">
+                        Tray.io
                     </StyledLink>
                 </StyledH2>
                 <StyledPara>
                     Building reliable and scalable systems by day. Leveraging technology to launch fully featured products by night.
-                    Design systems · A11y · Javascript
+                    Design systems · Developer Experience · Javascript
                 </StyledPara>
                 <Socials />
             </StyledTextContainer>

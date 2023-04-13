@@ -1,8 +1,13 @@
+import { CFGLogo, CheckoutLogo, MendeleyLogo, TrayLogo } from './Logos/component';
+
 export const Jobs = {
+    Tray: 'Tray.io',
     Mendeley: 'Mendeley',
     Checkout: 'Checkout.com',
     CFG: 'Code First Girls',
 }
+
+const TrayDesc = `Senior Frontend Engineer specialising in frontend architecture. Looking at CI/CD, AWS Cloudfront and S3 in addition to feature work.`
 
 const CKODesc = `
     Senior Software engineer specialising in front end web development responsible for Checkout.com's documentation rebuild. Currently working on 
@@ -25,7 +30,8 @@ export const Mendeley = {
     endDate: "31/11/20",
     title: "Graduate Engineer",
     desc: ElsDesc,
-    link: 'https://mendeley.com/search'
+    link: 'https://mendeley.com/search',
+    logo: <MendeleyLogo />
 };
 
 export const CodeFirstGirls = {
@@ -34,7 +40,8 @@ export const CodeFirstGirls = {
     endDate: "04/20",
     title: "Instructor",
     desc: CFGDesc,
-    link: 'https://codefirstgirls.org.uk/'
+    link: 'https://codefirstgirls.org.uk/',
+    logo: <CFGLogo />
 };
 
 export const Checkout = {
@@ -42,8 +49,20 @@ export const Checkout = {
     startDate: "04/01/21",
     title: "Senior Frontend Engineer",
     desc: CKODesc,
-    link: 'https://checkout.com/'
+    link: 'https://checkout.com/',
+    logo: <CheckoutLogo />
 };
+
+export const Tray = {
+    name: Jobs.Tray,
+    startDate: "14/11/22",
+    title: "Senior Frontend Engineer",
+    desc: TrayDesc,
+    link: 'https://tray.io/',
+    logo: <TrayLogo />
+};
+
+export const JobsList = [Tray, Checkout, CodeFirstGirls, Mendeley];
 
 export const ColorScheme = {
     name: 'Color Scheme',

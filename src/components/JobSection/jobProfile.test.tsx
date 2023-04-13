@@ -9,7 +9,8 @@ describe('JobSection component', () => {
         startDate: "startDate",
         name: "name",
         title: "title",
-        link: 'somewhere_over_the_rainbow'
+        link: 'somewhere_over_the_rainbow',
+        logo: <div>logo</div>
     }
     test('component matches snapshot with full profile', () => {
         expect.assertions(1);
